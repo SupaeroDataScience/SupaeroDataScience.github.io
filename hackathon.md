@@ -1,6 +1,8 @@
 # Hackathon
 
-Since the creation of the program in 2015, one of the key classes in the program has been the internal Hackathon.
+**Are you interested to participate in the Hackathon? [Contact us]({{ site.url }}/contact.html)!**
+
+Since the creation of the program in 2015, one of the key classes has been the internal Hackathon.
 
 At the end of training (all classes are over, the students start their internships a few weeks later), one or several real-world, open-ended Data Science problem is revealed. Students merge in teams and rush to an innovative solution in a 72 hours intensive sprint.
 
@@ -11,8 +13,6 @@ At last everyone gathers around the final presentations.
 The Hackathon's topics are all issued from partners: either research labs (public or private) or engineering teams in companies. All data and topics can be covered by confidentiality agreements (although we clearly prefer shareable data).
 
 Occasionnally, we might welcome a few external students for the Hackathon.
-
-**Would you like to propose a hackathon topic? [Contact us]({{ site.url }}/contact.html)!**
 
 For the 2019 hackathon, we wish to reduce the size of the student's groups, to diversify the topics (traditional partners are still very welcome!) and to go fully online for the computations (so far we had a mix of internal cluster usage and Google Cloud Platform).
 
