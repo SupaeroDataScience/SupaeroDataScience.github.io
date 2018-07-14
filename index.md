@@ -7,5 +7,5 @@ It is a selective-access program for the [final year](https://www.isae-supaero.f
 This web page hosts a description of the [program's contents]({{ site.url }}/syllabus.html), [community]({{ site.url }}/community.html), [information for prospective students]({{ site.url }}/students.html), information for partners ([hackathon]({{ site.url }}/hackathon.html), [internships]({{ site.url }}/internships.html), "[contrats pro]({{ site.url }}/contratspro.html)") and some [selected works]({{ site.url }}/portfolio.html) from current and past students.
 
 <ul>
-<li><a class="buttons" style href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
+<li><a class="buttons" style="background:red" href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
 </ul>
