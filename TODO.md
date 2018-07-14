@@ -1,34 +1,26 @@
 # Structure
 
-index.md
+Synthétiser ? Risque de perte d'info.
+Hierarchiser complexe avec le thème actuel.
 
-syllabus.md
-syllabus and download. 
+Presentation
+- leaflet
+- syllabus
+- hackathon
+- alumni
+- portfolio
 
-leaflet.md (maybe just link)
-leaflet.
+Prospective students
 
-prospectivestudents.md
-selection criteria.
+Partners
+- internships
+- contrats pro
 
-AMLnotebooks.md
-the best notebooks each year.
+- contact
 
-hackathon.md
-call for topics.
+# CTF 
 
 CTF.md
 call for topics.
 
-internships.md
-titles from past years
-
-contratspro.md
-conditions contrats pro, contact, exemples.
-
-alumni.md
-companies, linkedin group
-
-contact.md
-internships, jobs, collaborations, recruitement.
 

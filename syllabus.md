@@ -1,5 +1,7 @@
 # Syllabus
 
+<a class="buttons" href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
+
 The program is composed of 240h of classes, shared between the following modules:
 - [Foundations in Decision Making](#fsd301) (FSD301)<br>
 60h in Statistics, Optimization and Decision Theory

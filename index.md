@@ -6,4 +6,4 @@ It is a selective-access program for the [final year](https://www.isae-supaero.f
 
 This web page hosts a description of the program's contents (syllabus, short leaflet) and history (alumni), information for prospective students, information for partners (hackathon, internships) and some selected works from current and past students.
 
-
+<a class="buttons" href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
