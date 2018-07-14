@@ -23,5 +23,5 @@ background: linear-gradient(to top, #AF0011 0%,#820011 100%);
 border-radius:4px;
 border:1px solid #0D0D0D;
 -webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);" href="{{ site.url }}/downloads/leaflet.pdf"><a class="buttons" style="color: #fff;">Leaflet</a></li>
+box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);" href="{{ site.url }}/downloads/leaflet.pdf"><a class="buttons">Leaflet</a></li>
 </ul>
