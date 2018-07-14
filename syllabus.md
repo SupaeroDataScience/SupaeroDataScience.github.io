@@ -1,6 +1,6 @@
 # Syllabus
 
-<leaflet><a class="buttons">Leaflet</a></leaflet><br>
+<leaflet><a class="buttons">Leaflet</a></leaflet>
 <br>
 The program is composed of 240h of classes, shared between the following modules:
 - [Foundations in Decision Making](#fsd301) (FSD301)<br>
