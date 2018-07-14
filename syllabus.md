@@ -1,6 +1,8 @@
 # Syllabus
 
-<a class="buttons" href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
+<ul>
+<li><a class="buttons" style href="{{ site.url }}/downloads/leaflet.pdf">Leaflet</a></li>
+</ul>
 
 The program is composed of 240h of classes, shared between the following modules:
 - [Foundations in Decision Making](#fsd301) (FSD301)<br>
@@ -48,7 +50,8 @@ This program is complemented by a 6 months [internship](#internship) in top-notc
 
 ## <a id="fsd314"></a>Hackathon (FSD314)
 Counts as a 30 hour class.<br>
-Autonomy and agility on a real-world challenge in Data Science with external validation.
+Autonomy and agility on a real-world challenge in Data Science with external validation.<br>
+[Dedicated webpage]({{ site.url }}/hackathon.html)
 
 ## <a id="fsd319"></a>Seminars (FSD319)
 All year long, by academics and professional experts.<br>
@@ -57,3 +60,4 @@ Challenges.
 
 ## <a id="internship"></a>Internship
 6 months, with academic validation.
+[Dedicated webpage]({{ site.url }}/internships.html)
