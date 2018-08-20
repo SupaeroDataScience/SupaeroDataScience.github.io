@@ -1,5 +1,7 @@
 # Hackathon
 
+## The 2019 hackathon will be held 4-6th of March
+
 **Are you interested to participate in the Hackathon? [Contact us]({{ site.url }}/contact.html)!**
 
 Since the creation of the program in 2015, one of the key classes has been the internal Hackathon.
