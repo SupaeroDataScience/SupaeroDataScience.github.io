@@ -9,31 +9,6 @@ Auto-formation virtual-box : [http://lms.isae.fr/course/view.php?id=1111](http:/
 ### Distribution GNU/Linux
 On vous recommande d'installer une distribution Linux Ubuntu-like (ou Debian-like) pour trouver facilement de l'aide si besoin.
 
-### Pilotes GPU
-
-Installation de drivers CUDA :
-[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
-
-Installation de drivers OpenCL :
-- Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont [là](http://www.nvidia.com/Download/index.aspx?lang=en-us)
-- Si le PC a une carte graphique AMD, les drivers OpenCL sont [là](https://www.amd.com/en-us/solutions/professional/hpc/opencl)
-- Si le PC a seulement un processeur Intel, les drivers OpenCL sont [là](https://software.intel.com/en-us/articles/opencl-drivers)
-- Sur Mac, [OpenCL est déjà installé](https://support.apple.com/fr-fr/HT202823)
-
-Compilateurs possibles :
-- gcc/g++, Clang/xCode, Visual Studio, ...
-
-Librairies / d’interfaces pour la programmation :
-- Librairie [pycuda en Python](https://mathema.tician.de/software/pycuda/)
-~~~~
-> pip install pycuda
-~~~~
-- Librairie [pyopencl en Python](https://mathema.tician.de/software/pyopencl/)
-~~~~
-> pip install pyopencl
-~~~~
-→ Interface [Boost en C++](http://www.boost.org/doc/libs/1_63_0/libs/compute)
-
 ### Le langage R
 - L'interpréteur du langage R
 ~~~~
@@ -58,7 +33,7 @@ Librairies / d’interfaces pour la programmation :
 ~~~~
 > conda install tensorflow keras pytorch proj4 geos graphviz python-graphviz nltk networkx statsmodels pyspark
 ~~~~
-- Pour ceux qui ont une carte graphique NVIDIA (à regarder après avoir fait la partie plus bas concernant votre carte graphique)
+- Pour ceux qui ont une carte graphique NVIDIA (à regarder après avoir fait [la partie plus bas concernant votre carte graphique](#GPU))
 ~~~~
 > conda install tensorflow-gpu pytorch-gpu
 ~~~~
@@ -66,6 +41,31 @@ Librairies / d’interfaces pour la programmation :
 ~~~~
 > pip install pulp facile cartopy altair ipyleaflet cython cma vispy gym gym[atari] gym[classic_control] gym[box2d] gym[algorithms] roboschool
 ~~~~
+
+### <a id="GPU"></a>Pilotes GPU
+
+Installation de drivers CUDA :
+[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
+
+Installation de drivers OpenCL :
+- Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont [là](http://www.nvidia.com/Download/index.aspx?lang=en-us)
+- Si le PC a une carte graphique AMD, les drivers OpenCL sont [là](https://www.amd.com/en-us/solutions/professional/hpc/opencl)
+- Si le PC a seulement un processeur Intel, les drivers OpenCL sont [là](https://software.intel.com/en-us/articles/opencl-drivers)
+- Sur Mac, [OpenCL est déjà installé](https://support.apple.com/fr-fr/HT202823)
+
+Compilateurs possibles :
+- gcc/g++, Clang/xCode, Visual Studio, ...
+
+Librairies / d’interfaces pour la programmation :
+- Librairie [pycuda en Python](https://mathema.tician.de/software/pycuda/)
+~~~~
+> pip install pycuda
+~~~~
+- Librairie [pyopencl en Python](https://mathema.tician.de/software/pyopencl/)
+~~~~
+> pip install pyopencl
+~~~~
+→ Interface [Boost en C++](http://www.boost.org/doc/libs/1_63_0/libs/compute)
 
 ### La base de données PostgreSQL
 ~~~~

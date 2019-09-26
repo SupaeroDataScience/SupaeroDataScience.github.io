@@ -18,8 +18,7 @@ See [this dedicated page]({{ site.url }}/software.html).
 [Algorithms in ML / Advanced stats](http://laurent.risser.free.fr/TMP_SHARE/ISAE1819/)<br>
 [Algorithms in ML / Supervized and Unsupervized Learning](https://github.com/erachelson/MLclass)<br>
 [Algorithms in ML / Reinforcement Learning](https://github.com/erachelson/RLclass)<br>
-[GCP Usage](https://yogeek.github.io/enseignement/)
-[]
+[GCP usage](https://yogeek.github.io/enseignement/)
 
 More to come.
 
