@@ -38,7 +38,7 @@ This program is complemented by a 6 months [internship](#internship) in top-notc
 - Functional Programming
 - The Spark ecosystem
 - GPGPU computing
-- Cloud computing
+- Cloud computing and virtualization
 
 ## <a id="fsd312"></a>Digital Economy and Data Uses (FSD312)
 30 hours of classes on:
