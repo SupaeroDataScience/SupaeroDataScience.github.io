@@ -23,74 +23,108 @@ Dennis WILSON
 
 ## Overview and schedule
 
+| Date | Subject | Teacher |
+| ---  | ---     | ---     |
+| 16/09/20 | Business Intelligence | L. Rigaud |
+| 17/09/20 | Business Intelligence | L. Rigaud |
+| **04/01/21** | **Data Protection** | **D. Wilson** |
+| 05/01/21 | Cryptography | C. Aguilar |
+| 26/01/21 | Mock trials - evaluation | D. Wilson |
+
+<!--s-->
+
 ## Right to personal data protection
 
-Everyone has the right to
+<div class="textbox">
 
+Everyone has the right to:
 + the protection of personal data concerning him or her
-
 + access to data which has been collected concerning him or her, and the right to have it rectified
 
 This right is enshrined in article 8 of the Charter of Fundamental Rights.
 
+</div>
+
 [source](https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights/your-rights-eu/know-your-rights/freedoms/protection-personal-data_en)
 
-## History of Data Protection
+<!--s-->
 
-1970s as a reaction to the rise of computers. The consensus in Europe at the time was that existing law (including privacy law) would not be able to effectively protect individual rights from the risks brought about by the use of automated data processing systems.
-+ January 28 of 1981, the Council opened for signature the ‘Convention for the Protection of Individuals with regard to Automated Processing of Personal Data’
-+ control how computers are allowed to “think” about humans (what they can learn about us, what they must forget about us and when, for what purposes they can use what they know about us, what decisions they can make about us, and how they are supposed to explain all of that to us)
-+ granted specific rights to individuals that could be exceeded against any entity that had control over the processing of personal data related to the individual.
-+ Data Protection Directive 1995
+## History of European Data Protection
 
-## OECD
++ **1970s**, Europe: reaction to the rise of computers. existing law (including privacy law) would not be able to effectively protect individual rights from the risks brought about by the use of automated data processing systems.
++ **1980**, OECD Recommendations of the Council Concerning Guidelines Governing the Protection of Privacy and Trans-Border Flows of Personal Data
++ **January 28, 1981**, the Council opened for signature the ‘Convention for the Protection of Individuals with regard to Automated Processing of Personal Data’
+  + control how computers are allowed to “think” about humans (what they can learn about us, what they must forget about us and when, for what purposes they can use what they know about us, what decisions they can make about us, and how they are supposed to explain all of that to us)
+  + granted specific rights to individuals that could be exceeded against any entity that had control over the processing of personal data related to the individual.
++ **1995**, European Data Protection Directive, in effect until GDPR in 2018
++ **2012**, Workplan 29 Opinion on data protection reform proposal, leading to current GDPR
+
+[History of the GDPR](https://edps.europa.eu/data-protection/data-protection/legislation/history-general-data-protection-regulation_en)
+
+<!--s-->
+
+## 1980: OECD
+
+Organisation for Economic Co-operation and Development 
 
 Recommendations of the Council Concerning Guidelines Governing the Protection of Privacy and Trans-Border Flows of Personal Data
-Notice—data subjects should be given notice when their data is being collected;
-Purpose—data should only be used for the purpose stated and not for any other purposes;
-Consent—data should not be disclosed without the data subject’s consent;
-Security—collected data should be kept secure from any potential abuses;
-Disclosure—data subjects should be informed as to who is collecting their data;
-Access—data subjects should be allowed to access their data and make corrections to any inaccurate data
-Accountability—data subjects should have a method available to them to hold data collectors accountable for not following the above principles
+
++ **Notice**: data subjects should be given notice when their data is being collected;
++ **Purpose**: data should only be used for the purpose stated and not for any other purposes;
++ **Consent**: data should not be disclosed without the data subject’s consent;
++ **Security**: collected data should be kept secure from any potential abuses;
++ **Disclosure**: data subjects should be informed as to who is collecting their data;
++ **Access**: data subjects should be allowed to access their data and make corrections to any inaccurate data
++ **Accountability**: data subjects should have a method available to them to hold data collectors accountable for not following the above principles
+
+<!--s-->
 
 ## History of Data Protection
 
-<img src="static/img/webtech1200.gif">
+<img src="img/webtech1200.gif" width="50%" height="auto">
+
+<!--s-->
 
 ## The ongoing fight for Data Protection
 
-<img src="static/img/cyber_breach.png">
-Source: [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
+<img src="img/cyber_breach.png">
+
+Source:
+[Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
+
+<!--s-->
 
 ## Data breaches
 
-<img src="static/img/data_breach.png">
-Source: [World's Biggest Data Breaches & Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
+<img src="img/data_breach.png">
+
+Source: [World's Biggest Data Breaches and Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
+
+<!--s-->
 
 ## Security culture
 
-<img src="static/img/cyber_risk.png">
+<img src="img/cyber_risk.png">
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
+
+<!--s-->
 
 ## Security culture
 
-<img src="static/img/cyber_risk2.png">
+<img src="img/cyber_risk2.png">
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
+
+<!--s-->
 
 ## GDPR and Cyber Security
 
-<img src="static/img/cyber_gdpr.png">
-
-GDPR:
-+ Requires companies and organisations to meet data protection requirements
-+ Provides clear guidelines for data protection
-+ Imposes fines on companies when data protection is breached
-+ Enforces individuals' data protection rights
+<img src="img/cyber_gdpr.png">
 
 Source: [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
+
+<!--s-->
 
 ## General Data Protection Regulation
 
@@ -98,47 +132,70 @@ RGPD: règlement général sur la protection des données
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4M5lVYv3UI?start=30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<!--s-->
+
+## General Data Protection Regulation
+
++ Requires companies and organisations to meet data protection requirements
++ Provides clear guidelines for data protection
++ Imposes fines on companies when data protection is breached
++ Enforces individuals' data protection rights
+
+<!--s-->
+
 ## Personal data
 
 **‘personal data’ means any information relating to an identified or identifiable natural person** (‘data subject’);
 
+<div class="textbox">
 an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+</div>
 
-[GDPR source:](https://gdpr-info.eu/art-4-gdpr/)
+[GDPR source](https://gdpr-info.eu/art-4-gdpr/)
+
+<!--s-->
 
 ## Sensitive data
 
-Personal data revealing:
+<div class="textbox">
+
+Data containing or revealing:
 + racial or ethnic origin
 + political opinions
 + religious or philosophical beliefs
 + trade union membership
-
-and
 + genetic data
 + biometric data for the purpose of uniquely identifying a natural person
 + data concerning health 
 + data concerning a natural person’s sex life or sexual orientation
 
-[GDPR source:](https://gdpr-info.eu/art-4-gdpr/)
+</div>
+
+[GDPR source](https://gdpr-info.eu/art-4-gdpr/)
+
+<!--s-->
 
 ## Who does the GDPR apply to?
+
+<div class="textbox">
 
 + Does the organization offer goods or services to EU residents?
 + Does the organization monitor the behaviour of EU residents such as apps and websites?
 + Does the organization have employees in the EU?
 
-Controller:
+**Controller**:
     person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of processing of personal data
 
-Processor: 
+**Processor**:
     person, public authority, agency or other body which processes personal data on behalf of the controller
-    
-## Accountability
 
-
-    
+</div>
+ 
+<!--s-->
+   
 ## Data protection by design
+
+<div class="textbox">
 
 Companies have a responsability to:
 + Develop IT systems, services, products and processes that involve processing personal data
@@ -149,7 +206,11 @@ Privacy by design:
 + Homomorphic encryption: analysis on encrypted data
 + Tomorrow's class and spring Crypto in-depth
 
+</div>
+
 [GDPR, Article 25](https://gdpr-info.eu/art-25-gdpr/)
+ 
+<!--s-->
 
 ## Data protection by default
 
@@ -160,14 +221,12 @@ Companies have a responsability to:
 + Provide individuals with sufficient controls and options to exercise their rights
 
 [GDPR, Article 25](https://gdpr-info.eu/art-25-gdpr/)
-
-## Data Protection Officer
-
-
+ 
+<!--s-->
 
 ## Enforcement
 
-<img src="static/img/gdpr_fines.png">
+<img src="img/gdpr_fines.png">
 
 [source](https://www.enforcementtracker.com/)
 
@@ -175,25 +234,53 @@ Companies have a responsability to:
 
 ## Cause of fines
 
-<img src="static/img/gdpr_fines_cause.png">
+<img src="img/gdpr_fines_cause.png">
 
 [source](https://www.enforcementtracker.com/)
 
 <!--s-->
 
-## Google v. CNIL
+## Largest GDPR fine to date
 
-French Google fine
+50 million fine by CNIL against Google
 
-https://www.cnil.fr/fr/le-conseil-detat-valide-la-sanction-prononcee-lencontre-de-la-societe-google-llc
++ [CNIL statement](https://www.cnil.fr/en/cnils-restricted-committee-imposes-financial-penalty-50-million-euros-against-google-llc)
++ [en français](https://www.cnil.fr/fr/le-conseil-detat-valide-la-sanction-prononcee-lencontre-de-la-societe-google-llc)
++ [dans les actualites](https://www.conseil-etat.fr/actualites/actualites/rgpd-le-conseil-d-etat-rejette-le-recours-dirige-contre-la-sanction-de-50-millions-d-euros-infligee-a-google-par-la-cnil)
 
-https://www.conseil-etat.fr/actualites/actualites/rgpd-le-conseil-d-etat-rejette-le-recours-dirige-contre-la-sanction-de-50-millions-d-euros-infligee-a-google-par-la-cnil
+**Exercise**
+
++ Who are the concerned parties in this case?
++ Which parts of the GDPR were violated?
++ What specific Google technologies were found in violation of the GDPR?
+
+<!--s-->
 
 ## Marriott data breach
 
-<img src="static/img/marriot_fine.png">
+<img src="img/marriot_fine.png">
 
-[ICO fines Marriott €20 million over data breach](https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/10/ico-fines-marriott-international-inc-184million-for-failing-to-keep-customers-personal-data-secure/). Original fine was for €112 million.
+[ICO fines Marriott €20 million over data breach](https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/10/ico-fines-marriott-international-inc-184million-for-failing-to-keep-customers-personal-data-secure/). Original fine was for €112 million, would have been largest case.
+
+<!--s-->
+
+## Data Protection outside of Europe
+
+<div class="textbox">
+
+Long history in Europe of data protection law not present in many other countries.
+
+Recent development in other countries, often based on or motivated by the GDPR:
+
++ South Korea, Personal Information Protection Act, in effect since 2011
++ Privacy Amendment (Notifiable Data Breaches) to Australia’s Privacy Act, February 2018
++ Brazil’s Lei Geral de Proteçao de Dados (LGPD), September 2020
++ Japan and European Commission's agreement on "reciprocal adequacy" of respective data protection laws
++ Chile's Constitution was amended to include data privacy as a human right, 2018
+
+</div>
+
+<!--s-->
 
 ## California Consumer Privacy Act
 
@@ -209,15 +296,23 @@ Enacted June 28, 2018, expanded by the California Privacy Rights Act of 2020.
 
 [source](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act)
 
+<!--s-->
+
 ## Illinois Biometric Information Privace Act
+
+<div class="textbox">
 
 + Obtain consent from individuals if the company intends to collect or disclose their personal biometric identifiers.
 + Destroy biometric identifiers in a timely manner.
 + Securely store biometric identifiers.
 
+[BIPA source](https://en.wikipedia.org/wiki/Biometric_Information_Privacy_Act)
+
 Facebook settles facial recognition case for $550 million. [source](https://www.business-humanrights.org/en/latest-news/facebook-to-pay-550-million-to-settle-privacy-lawsuit-over-facial-recognition-tech/)
 
-[source](https://en.wikipedia.org/wiki/Biometric_Information_Privacy_Act)
+</div>
+
+<!--s-->
 
 ## Case study: Google de-linking 2019 case
 
@@ -231,12 +326,13 @@ Google LLC v CNIL 2019 [EUECJ C-507/17](http://curia.europa.eu/juris/document/do
 + [EU Law blog post](https://europeanlawblog.eu/2019/10/29/google-v-cnil-case-c-507-17-the-territorial-scope-of-the-right-to-be-forgotten-under-eu-law/)
 + [UK blog post](https://www.clydeco.com/en/insights/2020/01/reflecting-on-the-judgment-of-the-ecj-in-google-ll)
 
-<div class="alert alert-info">
-<b>Exercise</b>
-<br/>
-Respond to the following on Slack:
+<!--s-->
+
+## Case study: Google de-linking 2019 case
+
+**Exercise**
+
 + What are the main claims being made in this case?
 + Who is making them?
 + What aspects of the GDPR does it rely on or challenge?
 + What decision was made?
-</div>

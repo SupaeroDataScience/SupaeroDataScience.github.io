@@ -28,11 +28,11 @@ protection. You will be organizes in 3 teams for each trial; a team of 4 for
 each claimant and a team of 6 judges.
 
 Schedule:
-15 minutes oral argument of first party
-15 minutes oral argument of second party
-30 minutes questioning from the judges, 15 minute response time per party
-5 minutes closing statement from the first party
-5 minutes closing statement from the second party
++ 15 minutes oral argument of first party
++ 15 minutes oral argument of second party
++ 30 minutes questioning from the judges, 15 minute response time per party
++ 5 minutes closing statement from the first party
++ 5 minutes closing statement from the second party
 
 <!--s-->
 
@@ -80,6 +80,8 @@ trial.
 
 ## Decision
 
+<div class="textbox">
+
 1 week after the trial, the judges must turn in a written decision (1-2 pages)
 explaining the arguments from both claimants, the decision they reached, and why
 they made their decision. This should include the overall decision of the case,
@@ -90,6 +92,8 @@ in class, but should include a comparison to the decision made in the real case.
 
 Recommendation: split judges into two groups of 3, one for preparation, one for
 writing the decision.
+
+</div>
 
 <!--s-->
 
@@ -103,18 +107,6 @@ Peer evaluation: teams in first block grade teams in second block and vice-versa
 
 <!--s-->
 
-## Grading: claimants
-
-
-
-<!--s-->
-
-## Grading: Judges
-
-| | points |
-| 
-
-<!--s-->
 
 ## Cases
 
