@@ -99,6 +99,8 @@ writing the decision.
 
 ## Details
 
+Teams organized by 08/01/21, end of day.
+
 Moot court in class 26/01/21. 1h10 for each case, 2 blocks of 2 cases in parallel.
 
 Decisions turned in on the LMS by 06/02/21.
@@ -107,14 +109,35 @@ Peer evaluation: teams in first block grade teams in second block and vice-versa
 
 <!--s-->
 
+## Grading: claimants
+
+|    |    | points |
+| -- | -- | -- |
+| Main claim | clear central argument | 5 |
+| Detailed understanding | demonstrate a comprehensive understanding of the claim | 5 |
+| Questioning | Answered questions clearly and demonstrated preparation for details | 5 |
+| Responsiveness | Integrated and responded to opposing claim in questioning and closing argument | 5 |
+
+<!--s-->
+
+## Grading: Judges
+
+|    |    | points |
+| -- | -- | -- |
+| Questioning - preparation | show clear preparation with informed questions | 5 |
+| Questioning - discussion | asked questions and rebuttal which fostered discussion on the case | 5 |
+| Decision - In class | Written decision clearly summarizes decision based on in-class arguments | 5 |
+| Decision - Comparison | Written decision clearly compares to real-world decision | 5 |
+
+<!--s-->
 
 ## Cases
 
 1. Google Spain SL, Google Inc. v. Agencia Española de Protección de Datos [es], Mario Costeja González, [ECLI:EU:C:2014:317](https://e-justice.europa.eu/ecli/ECLI:EU:C:2014:317)
-Geographic reach of European data protection laws (pre-GDPR), the right to erasure in databases, the definition of data processor and controller
+   + Geographic reach of European data protection laws (pre-GDPR), the right to erasure in databases, the definition of data processor and controller
 2. Data Protection Commissioner v. Facebook Ireland Ltd, Maximilian Schrems and intervening parties, Case C-311/18 [ECLI:EU:C:2020:559](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0311)
-International data transfer, GDPR
-3. Sergejs Buivids v. the Augstākā tiesa[C-345/17](http://curia.europa.eu/juris/liste.jsf?language=en&td=ALL&num=C-345/17)
-Video data, personal data definition, journalistic data processing, freedom of expression, police data
+   + International data transfer, GDPR, Privacy Shield, International Safe Harbor Privacy Principles
+3. Sergejs Buivids v. the Augstākā tiesa [C-345/17](http://curia.europa.eu/juris/liste.jsf?language=en&td=ALL&num=C-345/17)
+   + Video data, personal data definition, journalistic data processing, freedom of expression, police data
 4. USA v. Facebook [Case 1:19-cv-02184](https://www.ftc.gov/enforcement/cases-proceedings/092-3184/facebook-inc)
-US privacy law, US Federal Trade Commission, data access for users, data transparency
+   + US privacy law, US Federal Trade Commission, data access for users, data transparency
