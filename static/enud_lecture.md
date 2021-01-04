@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <title>Privacy and Data Protection</title>
-    <link rel="shortcut icon" href="./favicon.ico"/>
-    <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/evo.css" />
-    <link rel="stylesheet" href="./css/evo.css" />
-
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template">
+---
+title: Privacy and Data Protection
+theme: evo
+highlightTheme: zenburn
+separator: <!--s-->
+verticalSeparator: <!--v-->
+revealOptions:
+    transition: 'fade'
+    transitionSpeed: 'default'
+    controls: true
+    slideNumber: true
+    width: '100%'
+    height: '100%'
+---
 
 # Privacy and Data Protection
 
@@ -22,7 +19,7 @@
 
 Dennis WILSON
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Overview and schedule
 
@@ -34,7 +31,7 @@ Dennis WILSON
 | 05/01/21 | Cryptography | C. Aguilar |
 | 26/01/21 | Mock trials - evaluation | D. Wilson |
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Right to personal data protection
 
@@ -50,7 +47,7 @@ This right is enshrined in article 8 of the Charter of Fundamental Rights.
 
 [source](https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights/your-rights-eu/know-your-rights/freedoms/protection-personal-data_en)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## History of European Data Protection
 
@@ -64,7 +61,7 @@ This right is enshrined in article 8 of the Charter of Fundamental Rights.
 
 [History of the GDPR](https://edps.europa.eu/data-protection/data-protection/legislation/history-general-data-protection-regulation_en)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## 1980: OECD
 
@@ -80,13 +77,13 @@ Recommendations of the Council Concerning Guidelines Governing the Protection of
 + **Access**: data subjects should be allowed to access their data and make corrections to any inaccurate data
 + **Accountability**: data subjects should have a method available to them to hold data collectors accountable for not following the above principles
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## History of Data Protection
 
 <img src="img/webtech1200.gif" width="50%" height="auto">
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## The ongoing fight for Data Protection
 
@@ -95,7 +92,7 @@ Recommendations of the Council Concerning Guidelines Governing the Protection of
 Source:
 [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Data breaches
 
@@ -103,7 +100,7 @@ Source:
 
 Source: [World's Biggest Data Breaches and Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Security culture
 
@@ -111,7 +108,7 @@ Source: [World's Biggest Data Breaches and Hacks](https://www.informationisbeaut
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Security culture
 
@@ -119,7 +116,7 @@ Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## GDPR and Cyber Security
 
@@ -127,7 +124,7 @@ Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/
 
 Source: [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## General Data Protection Regulation
 
@@ -135,7 +132,7 @@ RGPD: règlement général sur la protection des données
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4M5lVYv3UI?start=30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## General Data Protection Regulation
 
@@ -144,7 +141,7 @@ RGPD: règlement général sur la protection des données
 + Imposes fines on companies when data protection is breached
 + Enforces individuals' data protection rights
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Personal data
 
@@ -156,7 +153,7 @@ an identifiable natural person is one who can be identified, directly or indirec
 
 [GDPR source](https://gdpr-info.eu/art-4-gdpr/)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Sensitive data
 
@@ -176,7 +173,7 @@ Data containing or revealing:
 
 [GDPR source](https://gdpr-info.eu/art-4-gdpr/)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Who does the GDPR apply to?
 
@@ -194,7 +191,7 @@ Data containing or revealing:
 
 </div>
  
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
    
 ## Data protection by design
 
@@ -213,7 +210,7 @@ Privacy by design:
 
 [GDPR, Article 25](https://gdpr-info.eu/art-25-gdpr/)
  
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Data protection by default
 
@@ -225,7 +222,7 @@ Companies have a responsability to:
 
 [GDPR, Article 25](https://gdpr-info.eu/art-25-gdpr/)
  
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Enforcement
 
@@ -233,7 +230,7 @@ Companies have a responsability to:
 
 [source](https://www.enforcementtracker.com/)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Cause of fines
 
@@ -241,7 +238,7 @@ Companies have a responsability to:
 
 [source](https://www.enforcementtracker.com/)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Largest GDPR fine to date
 
@@ -257,7 +254,7 @@ Companies have a responsability to:
 + Which parts of the GDPR were violated?
 + What specific Google technologies were found in violation of the GDPR?
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Marriott data breach
 
@@ -265,7 +262,7 @@ Companies have a responsability to:
 
 [ICO fines Marriott €20 million over data breach](https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/10/ico-fines-marriott-international-inc-184million-for-failing-to-keep-customers-personal-data-secure/). Original fine was for €112 million, would have been largest case.
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Data Protection outside of Europe
 
@@ -283,7 +280,7 @@ Recent development in other countries, often based on or motivated by the GDPR:
 
 </div>
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## California Consumer Privacy Act
 
@@ -299,7 +296,7 @@ Enacted June 28, 2018, expanded by the California Privacy Rights Act of 2020.
 
 [source](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Illinois Biometric Information Privace Act
 
@@ -315,7 +312,7 @@ Facebook settles facial recognition case for $550 million. [source](https://www.
 
 </div>
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Case study: Google de-linking 2019 case
 
@@ -329,7 +326,7 @@ Google LLC v CNIL 2019 [EUECJ C-507/17](http://curia.europa.eu/juris/document/do
 + [EU Law blog post](https://europeanlawblog.eu/2019/10/29/google-v-cnil-case-c-507-17-the-territorial-scope-of-the-right-to-be-forgotten-under-eu-law/)
 + [UK blog post](https://www.clydeco.com/en/insights/2020/01/reflecting-on-the-judgment-of-the-ecj-in-google-ll)
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Case study: Google de-linking 2019 case
 
@@ -339,55 +336,3 @@ Google LLC v CNIL 2019 [EUECJ C-507/17](http://curia.europa.eu/juris/document/do
 + Who is making them?
 + What aspects of the GDPR does it rely on or challenge?
 + What decision was made?
-</script></section></div>
-    </div>
-
-    <script src="./dist/reveal.js"></script>
-
-    <script src="./plugin/markdown/markdown.js"></script>
-    <script src="./plugin/highlight/highlight.js"></script>
-    <script src="./plugin/zoom/zoom.js"></script>
-    <script src="./plugin/notes/notes.js"></script>
-    <script src="./plugin/math/math.js"></script>
-    <script>
-      function extend() {
-        var target = {};
-        for (var i = 0; i < arguments.length; i++) {
-          var source = arguments[i];
-          for (var key in source) {
-            if (source.hasOwnProperty(key)) {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      }
-
-      // default options to init reveal.js
-      var defaultOptions = {
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        transition: 'default', // none/fade/slide/convex/concave/zoom
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealZoom,
-          RevealNotes,
-          RevealMath
-        ]
-      };
-
-      // options from URL query string
-      var queryOptions = Reveal().getQueryHash() || {};
-
-      var options = extend(defaultOptions, {"transition":"fade","transitionSpeed":"default","controls":true,"slideNumber":true,"width":"100%","height":"100%"}, queryOptions);
-    </script>
-
-
-    <script>
-      Reveal.initialize(options);
-    </script>
-  </body>
-</html>

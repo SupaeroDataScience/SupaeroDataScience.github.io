@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <title>Privacy and Data Protection</title>
-    <link rel="shortcut icon" href="./favicon.ico"/>
-    <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="_assets/evo" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./_assets/css/evo.css" />
-
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template">
+---
+title: Privacy and Data Protection
+theme: evo
+highlightTheme: zenburn
+separator: <!--s-->
+verticalSeparator: <!--v-->
+revealOptions:
+    transition: 'fade'
+    transitionSpeed: 'default'
+    controls: true
+    slideNumber: true
+    width: '100%'
+    height: '100%'
+---
 
 # Privacy and Data Protection
 
@@ -22,7 +19,7 @@
 
 Dennis WILSON
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## FSD313 Evaluation 1 : Moot court (procès fictif)
 
@@ -37,7 +34,7 @@ Schedule:
 + 5 minutes closing statement from the first party
 + 5 minutes closing statement from the second party
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Oral Arguments
 
@@ -49,7 +46,7 @@ Present the following:
 + What is the opposing party's claim?
 + Why is your claim correct over the opposing party's claim?
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Questioning
 
@@ -70,7 +67,7 @@ preparation done by each team to foster a useful discussion for their decision.
 Claimants should have prepared materials easily accessible so that they can
 better respond to questions.
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Closing statements
 
@@ -79,7 +76,7 @@ for their claim, taking into account the opposing claim's oral arguments and
 questioning. You should prepare a draft in advance and modify it during the
 trial.
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Decision
 
@@ -98,7 +95,7 @@ writing the decision.
 
 </div>
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 ## Details
 
@@ -108,7 +105,7 @@ Decisions turned in on the LMS by 06/02/21.
 
 Peer evaluation: teams in first block grade teams in second block and vice-versa.
 
-</script></section><section  data-markdown><script type="text/template">
+<!--s-->
 
 
 ## Cases
@@ -121,55 +118,3 @@ International data transfer, GDPR
 Video data, personal data definition, journalistic data processing, freedom of expression, police data
 4. USA v. Facebook [Case 1:19-cv-02184](https://www.ftc.gov/enforcement/cases-proceedings/092-3184/facebook-inc)
 US privacy law, US Federal Trade Commission, data access for users, data transparency
-</script></section></div>
-    </div>
-
-    <script src="./dist/reveal.js"></script>
-
-    <script src="./plugin/markdown/markdown.js"></script>
-    <script src="./plugin/highlight/highlight.js"></script>
-    <script src="./plugin/zoom/zoom.js"></script>
-    <script src="./plugin/notes/notes.js"></script>
-    <script src="./plugin/math/math.js"></script>
-    <script>
-      function extend() {
-        var target = {};
-        for (var i = 0; i < arguments.length; i++) {
-          var source = arguments[i];
-          for (var key in source) {
-            if (source.hasOwnProperty(key)) {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      }
-
-      // default options to init reveal.js
-      var defaultOptions = {
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        transition: 'default', // none/fade/slide/convex/concave/zoom
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealZoom,
-          RevealNotes,
-          RevealMath
-        ]
-      };
-
-      // options from URL query string
-      var queryOptions = Reveal().getQueryHash() || {};
-
-      var options = extend(defaultOptions, {"transition":"fade","transitionSpeed":"default","controls":true,"slideNumber":true,"width":"100%","height":"100%"}, queryOptions);
-    </script>
-
-
-    <script>
-      Reveal.initialize(options);
-    </script>
-  </body>
-</html>
