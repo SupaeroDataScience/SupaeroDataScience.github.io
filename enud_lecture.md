@@ -58,7 +58,6 @@ Accountability—data subjects should have a method available to them to hold da
 
 <img src="static/img/webtech1200.gif">
 
-
 ## The ongoing fight for Data Protection
 
 <img src="static/img/cyber_breach.png">
@@ -93,14 +92,11 @@ GDPR:
 
 Source: [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
 
-## GPDR
+## General Data Protection Regulation
 
-25 May 2018
+RGPD: règlement général sur la protection des données
 
-quiz about RGPD
-
-GDPR
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u4M5lVYv3UI?start=30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Personal data
 
