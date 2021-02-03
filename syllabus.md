@@ -32,7 +32,7 @@ This program is complemented by a 6 months [internship](#internship) in top-notc
 - Advanced statistical modeling
 - [**Unsupervized and Supervized Learning Algorithms**](https://github.com/erachelson/MLclass) (k-means clustering, Hierarchical clustering, Naives Bayes classification, Gaussian Processes, Support Vector Machines, kernel methods, Boosting, Bagging, Random Forests, Statistical Learning Theory)
 - [**Deep Learning**](https://supaerodatascience.github.io/deep-learning/) (Neural Networks, CNNs, computer vision, NLP, )
-- [**Reinforcement Learning**](https://github.com/erachelson/RLclass) and Markov Decision Processes (model based and model-free, online, offline, Monte-Carlo tree search, Deep RL)
+- [**Reinforcement Learning**](https://supaerodatascience.github.io/reinforcement-learning/) and Markov Decision Processes (model based and model-free, online, offline, Monte-Carlo tree search, Deep RL)
 
 ## <a id="fsd313"></a>Tools of Big Data (FSD313)
 [Class website](https://supaerodatascience.github.io/OBD/)<br/>
