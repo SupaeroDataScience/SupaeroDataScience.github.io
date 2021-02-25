@@ -7,10 +7,10 @@ been the end-of-year Hackathon. Industrial and academic partners present
 real-world, challengening Data Science problems for the SDD students. Students
 work in teams and rush to an innovative solution in a 72 hours intensive sprint. 
 
-The Hackathon's topics are all issued from partners: either research labs
-(public or private) or engineering teams in companies. All data and topics can
-be covered by confidentiality agreements (although we clearly prefer shareable
-data). Occasionally, we welcome a external students for the Hackathon.
+The Hackathon's topics are issued from partners: either research labs (public or
+private) or engineering teams in companies. All data and topics can be covered
+by confidentiality agreements (although we clearly prefer shareable data).
+Occasionally, we welcome a external students for the Hackathon.
 
 Past editions:
 - 2020 with Airbus Defense and Space, CapGemini, Dassault Aviation, and ISAE-Supaero<br/>
@@ -26,4 +26,6 @@ Single topic: land cover classification<br>
 Two topics: cloud segmentation and oil detection in satellite images<br>
 [Press release](http://www.irt-saintexupery.com/isae-supaero-irt-saint-exupery-hackathon/)
 
-**Interested partners for SDD hackathons should [contact us]({{ site.url }}/contact.html).**
+**Interested partners for the SDD hackathon should [contact us]({{ site.url }}/contact.html):**
+
+Dennis Wilson ([webpage](https://personnel.isae-supaero.fr/dennis-wilson), [email](mailto:dennis.wilson@isae-supaero.fr))
