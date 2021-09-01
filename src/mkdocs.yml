@@ -11,7 +11,7 @@ theme:
     primary: light blue
     accent: light blue
   logo: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
-  logo: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
+  favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
   features:
     - toc.autohide
     - navigation.sections

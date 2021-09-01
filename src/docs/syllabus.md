@@ -1,24 +1,23 @@
 # Syllabus
 
-<!-- <leaflet><a class="buttons">Leaflet</a></leaflet> -->
-<br>
 The program is composed of 240h of classes, shared between the following modules:
-- [Foundations in Decision Making](#fsd301) (FSD301)<br>
-60h in Statistics, Optimization and Decision Theory
-- [Algorithms in Machine Learning](#fsd311) (FSD311)<br>
-80h in Advanced statistical modeling, Supervized, Unsupervized and Reinforcement Learning
-- [Tools of Big Data](#fsd313) (FSD313)<br>
-50h in Data integration, databases, functional programming, Spark, GPGPU and cloud computing
-- [Digital economy and data uses](#fsd312) (FSD312)<br>
-15h on the business models in the digital economy, privacy and security issues.
-- [In-depth modules](#fsd312) (FSD312)<br>
-15h in parallel modules for expanding understanding in a specific topic.
-- [Hackathon](#fsd314) (FSD314)<br>
-3 days intensive project on a real-world Data Science challenge (count as a 20h class).
-- [Seminars](#fsd319) (FSD319)<br>
-Interventions from professional experts, academics, short off-cursus training sessions, challenges.
 
-This program is complemented by a 6 months [internship](#internship) in top-notch labs or companies.
+- [Foundations in Decision Making](#fsd301) (FSD301)
+  - 60h in Statistics, Optimization and Decision Theory
+- [Algorithms in Machine Learning](#fsd311) (FSD311)<br>
+  - 80h in Advanced statistical modeling, Supervized, Unsupervized and Reinforcement Learning
+- [Tools of Big Data](#fsd313) (FSD313)<br>
+  - 50h in Data integration, databases, functional programming, Spark, GPGPU and cloud computing
+- [Digital economy and data uses](#fsd312) (FSD312)<br>
+  - 15h on the business models in the digital economy, privacy and security issues.
+- [In-depth modules](#fsd312) (FSD312)<br>
+  - 15h in parallel modules for expanding understanding in a specific topic.
+- [Hackathon](#fsd314) (FSD314)<br>
+  - 3 days intensive project on a real-world Data Science challenge (count as a 20h class).
+- [Seminars](#fsd319) (FSD319)<br>
+  - Interventions from professional experts, academics, short off-cursus training sessions, challenges.
+
+This program is complemented by a 6 months internship in top-notch labs or companies.
 
 ## <a id="fsd301"></a>Foundations in Decision Making (FSD301)
 60 hours of classes on:
@@ -67,4 +66,3 @@ Challenges: Kaggle competitions, mini-hackathon and capture the flags.
 
 ## <a id="internship"></a>Internship
 6 months, with academic validation.
-[Dedicated webpage]({{ site.url }}/internships.html)
