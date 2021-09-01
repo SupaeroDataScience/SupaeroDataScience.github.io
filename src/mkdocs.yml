@@ -21,10 +21,15 @@ repo_url: https://github.com/SupaeroDataScience/
 
 nav:
 - Index: index.md
-- Syllabus: syllabus.md
 - Prospective students: students.md
 - Info for students: infostudents.md
 - Info for partners: partners.md
+- Syllabus:
+    - Overview: syllabus.md
+    - Machine Learning Algorithms: 'https://github.com/erachelson/MLclass'
+    - Deep Learning: 'https://supaerodatascience.github.io/deep-learning/'
+    - Reinforcement Learning: 'https://supaerodatascience.github.io/reinforcement-learning/'
+    - Tools of Big Data: 'https://supaerodatascience.github.io/OBD/'
 
 markdown_extensions:
 - markdown.extensions.codehilite:
