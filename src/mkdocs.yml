@@ -13,8 +13,8 @@ theme:
   logo: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
   favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
   features:
-    - toc.autohide
     - navigation.sections
+    - navigation.expand
 
 repo_name: SupaeroDataScience
 repo_url: https://github.com/SupaeroDataScience/
@@ -26,10 +26,17 @@ nav:
 - Info for partners: partners.md
 - Syllabus:
     - Overview: syllabus.md
-    - Machine Learning Algorithms: 'https://github.com/erachelson/MLclass'
-    - Deep Learning: 'https://supaerodatascience.github.io/deep-learning/'
-    - Reinforcement Learning: 'https://supaerodatascience.github.io/reinforcement-learning/'
-    - Tools of Big Data: 'https://supaerodatascience.github.io/OBD/'
+    - FSD301 TC:
+      - Overview: 'https://supaerodatascience.github.io/syllabus.html#fsd301'
+      - Stochastic optimization: 'https://supaerodatascience.github.io/stochastic/'
+    - FSD311 AML:
+      - Machine Learning Algorithms: 'https://github.com/erachelson/MLclass'
+      - Deep Learning: 'https://supaerodatascience.github.io/deep-learning/'
+      - Reinforcement Learning: 'https://supaerodatascience.github.io/reinforcement-learning/'
+    - FSD312 ENUD: enud.md
+    - FSD313 OBD: 'https://supaerodatascience.github.io/OBD/'
+    - FSD314 Hackathon: hackathon.md
+    - FSD319 Seminars: seminars.md
 
 markdown_extensions:
 - markdown.extensions.codehilite:
