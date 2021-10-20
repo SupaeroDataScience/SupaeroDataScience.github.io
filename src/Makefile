@@ -7,7 +7,7 @@ all:
         --css static/css/evo.css \
         --css static/css/reset.css \
         --static-dirs static \
-        --static ../../lectures
+        --static ../../slides
 
 sync:
 	bash sync.sh
@@ -21,13 +21,13 @@ deploy:
         --css static/css/evo.css \
         --css static/css/reset.css \
         --static-dirs static \
-        --static ../../lectures
+        --static ../../slides
 	git checkout gh-pages
-	git add ../lectures
+	git add ../slides
 	git commit -m 'reveal update'
 	git push origin gh-pages
 	git checkout master
 
 clean:
 	rm -rf site
-	rm -rf ../lectures
+	rm -rf ../slides
