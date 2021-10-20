@@ -23,13 +23,12 @@ Dennis WILSON
 
 ## Overview and schedule
 
-| Date | Subject | Teacher |
-| ---  | ---     | ---     |
-| 16/09/20 | Business Intelligence | L. Rigaud |
-| 17/09/20 | Business Intelligence | L. Rigaud |
-| **04/01/21** | **Data Protection** | **D. Wilson** |
-| 05/01/21 | Cryptography | C. Aguilar |
-| 26/01/21 | Mock trials - evaluation | D. Wilson |
+Schedule | | | |
+--- | --- | --- | ---
+[Data Protection](https://lms.isae.fr/mod/resource/view.php?id=57686) | 13/10/2021 | 3h | Carlos Melchor
+[Business Intelligence](https://lms.isae.fr/mod/resource/view.php?id=62173) | 19/10/2021<br/>20/10/2021 | 10h | Lionel Rigaud
+**[Data Regulation](slides/enud_lecture.html)** | 09/11/2021 | 3h | Ronan Pons
+[Mock trial](slides/enud_evaluation.html) | 16/11/2021 | 3h | Ronan Pons, Dennis Wilson
 
 <!--s-->
 
@@ -81,13 +80,13 @@ Recommendations of the Council Concerning Guidelines Governing the Protection of
 
 ## History of Data Protection
 
-<img src="img/webtech1200.gif" width="50%" height="auto">
+<img src="static/img/webtech1200.gif" width="50%" height="auto">
 
 <!--s-->
 
 ## The ongoing fight for Data Protection
 
-<img src="img/cyber_breach.png">
+<img src="static/img/cyber_breach.png">
 
 Source:
 [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
@@ -96,7 +95,7 @@ Source:
 
 ## Data breaches
 
-<img src="img/data_breach.png">
+<img src="static/img/data_breach.png">
 
 Source: [World's Biggest Data Breaches and Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
@@ -104,7 +103,7 @@ Source: [World's Biggest Data Breaches and Hacks](https://www.informationisbeaut
 
 ## Security culture
 
-<img src="img/cyber_risk.png">
+<img src="static/img/cyber_risk.png">
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
 
@@ -112,7 +111,7 @@ Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/
 
 ## Security culture
 
-<img src="img/cyber_risk2.png">
+<img src="static/img/cyber_risk2.png">
 
 Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/government/publications/cyber-governance-health-check-2018)
 
@@ -120,7 +119,7 @@ Source: [FTSE 350 Cyber Governance Health Check Report 2018](https://www.gov.uk/
 
 ## GDPR and Cyber Security
 
-<img src="img/cyber_gdpr.png">
+<img src="static/img/cyber_gdpr.png">
 
 Source: [Cyber Security Breaches Survey 2019](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2019)
 
@@ -226,7 +225,7 @@ Companies have a responsability to:
 
 ## Enforcement
 
-<img src="img/gdpr_fines.png">
+<img src="static/img/gdpr_fines.png">
 
 [source](https://www.enforcementtracker.com/)
 
@@ -234,7 +233,7 @@ Companies have a responsability to:
 
 ## Cause of fines
 
-<img src="img/gdpr_fines_cause.png">
+<img src="static/img/gdpr_fines_cause.png">
 
 [source](https://www.enforcementtracker.com/)
 
@@ -258,7 +257,7 @@ Companies have a responsability to:
 
 ## Marriott data breach
 
-<img src="img/marriot_fine.png">
+<img src="static/img/marriot_fine.png">
 
 [ICO fines Marriott €20 million over data breach](https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/10/ico-fines-marriott-international-inc-184million-for-failing-to-keep-customers-personal-data-secure/). Original fine was for €112 million, would have been largest case.
 
