@@ -6,7 +6,7 @@ The program is composed of 240h of classes, shared between the following modules
     * 60h in Statistics, Optimization and Decision Theory
 
 - [Algorithms in Machine Learning](#fsd311) (FSD311, AML)<br>
-    * 80h in Advanced statistical modeling, Supervized, Unsupervized and Reinforcement Learning
+    * 80h in Advanced statistical modeling, Supervised, Unsupervised and Reinforcement Learning
 
 - [Digital economy and data uses](#fsd312) (FSD312, ENUD)<br>
     * 15h on the business models in the digital economy, privacy and security issues.
@@ -38,13 +38,13 @@ This program is complemented by a 6 months internship in top-notch labs or compa
 
 80 hours of classes on:
 
-- Advanced statistical modeling
-- [**Unsupervized and Supervized Learning Algorithms**](https://github.com/erachelson/MLclass) (k-means clustering, Hierarchical clustering, Naives Bayes classification, Gaussian Processes, Support Vector Machines, kernel methods, Boosting, Bagging, Random Forests, Statistical Learning Theory)
-- [**Deep Learning**](https://supaerodatascience.github.io/deep-learning/) (Neural Networks, CNNs, computer vision, NLP, )
-- [**Reinforcement Learning**](https://supaerodatascience.github.io/reinforcement-learning/) and Markov Decision Processes (model based and model-free, online, offline, Monte-Carlo tree search, Deep RL)
+- [**Statistical Foundations of Machine Learning**](https://supaerodatascience.github.io/stat-ml/) 
+- [**Unsupervised and Supervised Learning Algorithms**](https://supaerodatascience.github.io/machine-learning/) 
+- [**Deep Learning**](https://supaerodatascience.github.io/deep-learning/) 
+- [**Reinforcement Learning**](https://supaerodatascience.github.io/reinforcement-learning/) and Markov Decision Processes 
 
 ## <a id="fsd312"></a>Digital Economy and Data Use (FSD312, ENUD)
-[Class website]({{ site.url }}/enud.html)
+[Class website](https://supaerodatascience.github.io/enud.html)
 
 15 hours of classes on:
 
@@ -72,12 +72,12 @@ This program is complemented by a 6 months internship in top-notch labs or compa
 - Data security and privacy issues (Homomorphic encryption)
 
 ## <a id="fsd314"></a>Hackathon (FSD314)
-[Class website]({{ site.url }}/hackathon.html)
+[Class website](https://supaerodatascience.github.io/hackathon.html)
 Autonomy and agility on a real-world challenge in Data Science with external validation.<br>
 Counts as a 20 hour class.<br>
 
 ## <a id="fsd319"></a>Seminars (FSD319)
-[Class website]({{ site.url }}/seminars.html)
+[Class website](https://supaerodatascience.github.io/seminars.html)
 All year long, by academics and professional experts.<br>
 Short off-cursus training sessions.<br>
 Challenges: Kaggle competitions, mini-hackathon and capture the flags.

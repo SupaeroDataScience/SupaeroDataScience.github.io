@@ -20,17 +20,20 @@ repo_name: SupaeroDataScience
 repo_url: https://github.com/SupaeroDataScience/
 
 nav:
-- Index: index.md
+- Home: index.md
 - Prospective students: students.md
 - Info for students: infostudents.md
 - Info for partners: partners.md
 - Syllabus:
     - Overview: syllabus.md
     - FSD301 TC:
-      - Overview: 'https://supaerodatascience.github.io/syllabus.html#fsd301'
-      - Stochastic optimization: 'https://supaerodatascience.github.io/stochastic/'
+      - Decision Theory: 'https://supaerodatascience.github.io/syllabus.html#fsd301'
+      - Statistics: 'https://supaerodatascience.github.io/syllabus.html#fsd301'
+      - Combinatorial Optimization: 'https://supaerodatascience.github.io/syllabus.html#fsd301'
+      - Stochastic Optimization: 'https://supaerodatascience.github.io/stochastic/'
     - FSD311 AML:
-      - Machine Learning Algorithms: 'https://github.com/erachelson/MLclass'
+      - Statistical Foundations of Machine Learning: https://supaerodatascience.github.io/stat-ml/
+      - Machine Learning Algorithms: 'https://supaerodatascience.github.io/machine-learning/'
       - Deep Learning: 'https://supaerodatascience.github.io/deep-learning/'
       - Reinforcement Learning: 'https://supaerodatascience.github.io/reinforcement-learning/'
     - FSD312 ENUD: enud.md
