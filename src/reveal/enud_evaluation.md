@@ -24,8 +24,8 @@ Dennis WILSON
 ## FSD313 Evaluation 1 : Moot court (procès fictif)
 
 For the evaluation of this class, you will re-enact landmark cases in data
-protection. You will be organizes in 3 teams for each trial; a team of 4 for
-each claimant and a team of 6 judges.
+protection. You will be organizes in 3 teams for each trial; a team of 5 for
+each claimant and a team of 5 judges.
 
 Schedule:
 + 15 minutes oral argument of first party
@@ -90,7 +90,7 @@ implications of this decision (ie, a more precise definition of "controller" for
 the GDPR). The decision must be based on the oral arguments and questioning done
 in class, but should include a comparison to the decision made in the real case.
 
-Recommendation: split judges into two groups of 3, one for preparation, one for
+Recommendation: split judges into two groups, one for preparation, one for
 writing the decision.
 
 </div>
@@ -99,13 +99,13 @@ writing the decision.
 
 ## Details
 
-Teams organized by 05/11/21, end of day.
+Teams organized by 08/11/21, end of day.
 
 Moot court in class 16/11/21. 1h10 for each case, 2 blocks of 2 cases in parallel.
 
 Decisions turned in on the LMS by 26/11/21.
 
-Peer evaluation: teams in first block grade teams in second block and vice-versa.
+Peer evaluation: teams in first block grade teams in second block and vice-versa. Turned in via Slack by 26/11/21.
 
 <!--s-->
 
