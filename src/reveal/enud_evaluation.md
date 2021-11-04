@@ -137,7 +137,8 @@ Peer evaluation: teams in first block grade teams in second block and vice-versa
    + Geographic reach of European data protection laws (pre-GDPR), the right to erasure in databases, the definition of data processor and controller
 2. Data Protection Commissioner v. Facebook Ireland Ltd, Maximilian Schrems and intervening parties, Case C-311/18 [ECLI:EU:C:2020:559](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0311)
    + International data transfer, GDPR, Privacy Shield, International Safe Harbor Privacy Principles
-3. Expérimentation de la reconnaissance faciale dans deux lycées [la CNIL](https://www.cnil.fr/fr/experimentation-de-la-reconnaissance-faciale-dans-deux-lycees-la-cnil-precise-sa-position)
+3. Expérimentation de la reconnaissance faciale dans deux lycées [TRIBUNAL ADMINISTRATIF 
+DE MARSEILLE N° 1901249]( http://marseille.tribunal-administratif.fr/content/download/178764/1756210/version/1/file/1901249.pdf), [CNIL decision](https://www.cnil.fr/fr/experimentation-de-la-reconnaissance-faciale-dans-deux-lycees-la-cnil-precise-sa-position)
    + Video data, personal data definition, automatic identification, facial recognition
 4. USA v. Facebook [Case 1:19-cv-02184](https://www.ftc.gov/enforcement/cases-proceedings/092-3184/facebook-inc)
    + US privacy law, US Federal Trade Commission, data access for users, data transparency
