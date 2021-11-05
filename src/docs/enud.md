@@ -27,6 +27,8 @@ hours of class and simulation on business intelligence and the digital economy.
 
 Ronan Pons presents an overview of the history of data privacy regulation and an in-depth analysis of the GDPR. 
 
-[Slides](slides/enud_lecture.html)
+[Slides](https://github.com/SupaeroDataScience/SupaeroDataScience.github.io/blob/master/enud/Donn%C3%A9es%20personnelles%20et%20Vie%20priv%C3%A9e.pptx?raw=true)
 
 The evaluation for this module takes the form of a mock trial, where students will simulate real cases in data privacy. More information on the mock trail format is [here](slides/enud_evaluation.html). Students must declare their teams and role preference by *November 8th* at the latest. The class on the GDPR will help students prepare for case analysis and presentation.
+
+[2020 Slides](slides/enud_lecture.html)
