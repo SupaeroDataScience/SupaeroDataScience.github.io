@@ -1,0 +1,49 @@
+site_name: SDD
+site_description: Data and Decision Sciences Engineering Program
+site_url: https://supaerodatascience.github.io/
+site_dir: site
+strict: false
+use_directory_urls: false
+
+theme:
+  name: 'material'
+  palette:
+    primary: light blue
+    accent: light blue
+  logo: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
+  favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/src/favicon.ico'
+  features:
+    - navigation.sections
+    - navigation.expand
+
+repo_name: SupaeroDataScience
+repo_url: https://github.com/SupaeroDataScience/
+
+nav:
+- Home: index.md
+- Classes:
+  - Foundations in Decision Making: 'https://supaerodatascience.github.io/index.html#fsd301'
+  - Algorithms in Machine Learning: 'https://supaerodatascience.github.io/index.html#fsd311'
+  - Tools of Big Data: 'https://supaerodatascience.github.io/OBD/'
+  - Digital Economy and Data Usage: enud.md
+  - Hackathon: hackathon.md
+  - Seminars: seminars.md
+- Resources:
+  - For current students: infostudents.md
+  - For partners: partners.md
+  - For prospective students: students.md
+
+markdown_extensions:
+- markdown.extensions.codehilite:
+    guess_lang: false
+- toc:
+    permalink: 🔗
+- admonition
+- codehilite
+- extra
+- attr_list
+- pymdownx.details
+- pymdownx.superfences
+
+plugins:
+- search
