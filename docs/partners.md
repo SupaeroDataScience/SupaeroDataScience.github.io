@@ -14,5 +14,5 @@ We take great care that our students embark on challenging, high added value int
 Part-time contract between September and March, then full-time until August.
 - Dedicated events<br>
 We are open to suggestions about dedicated events such as competitions, hackathons, or attending recruitment events. [Write to us](https://supaerodatascience.github.io/contact.html) with suggestions.
-- [Seminars](https://supaerodatascience.github.io/fsd319.html)<br>
+- [Seminars](https://supaerodatascience.github.io/seminars.html)<br>
 We have a running seminar all year long. We welcome people that come to share their passion, motivation and experience (be it technical, scientific, social...). However we strictly enforce one rule: no advertising for companies, we're interested in people and sharing, this is not the place for recruitment.
