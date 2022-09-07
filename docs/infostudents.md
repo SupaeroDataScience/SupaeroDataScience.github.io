@@ -1,36 +1,38 @@
 # Information for current students
 
+Most information and all course materials can be found on the course websites. This page contains general information and resources for continued education and looking for internships.
+
 ## Useful links
 
-[Moodle (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/index.php?categoryid=282)<br>
-[Timetable (2019-2020)](https://lms.isae.fr/mod/resource/view.php?id=55951) (requires ISAE-SUPAERO authentication)<br>
-The [Operations Research MS](http://m2rit-ro.recherche.enac.fr/)<br>
-The [Applied Math MS](https://perso.math.univ-toulouse.fr/m2r/)<br>
-The [alumni Linkedin group](https://perso.math.univ-toulouse.fr/m2r/)
+- [Moodle (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/index.php?categoryid=282)<br>
+- [Internship information (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/view.php?id=2999)
+- The [alumni Linkedin group](https://perso.math.univ-toulouse.fr/m2r/)
+- The [Operations Research MS](http://m2rit-ro.recherche.enac.fr/)<br>
+- The [Applied Math MS](https://perso.math.univ-toulouse.fr/m2r/)<br>
+- [ANITI](https://aniti.univ-toulouse.fr/)
 
-## Software (in French, updated Sept. 2019)
+## External resources
 
-See [this dedicated page]({{ site.url }}/software.html).
+This resources can complement the material in SDD and cover many of the same topics
 
-## Links to teaching resources
+- [Stanford CS229: Machine Learning](https://cs229.stanford.edu/)
+- [Stanford CS230: Deep Learning](https://cs230.stanford.edu/)
+- [MITx Machine Learning with Python](https://www.edx.org/course/machine-learning-with-python-from-linear-models-to?utm_source=mitopenlearning-mit-open-learning&utm_medium=affiliate_partner)
+- [David Silver's Reinforcement Learning course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 
-[Python](https://github.com/letstrythat/back2python)<br>
-[Algorithms in ML / Advanced stats](http://laurent.risser.free.fr/TMP_SHARE/ISAE1819/)<br>
-[Algorithms in ML / Supervized and Unsupervized Learning](https://github.com/erachelson/MLclass)<br>
-[Algorithms in ML / Reinforcement Learning](https://github.com/erachelson/RLclass)<br>
-[GCP usage](https://yogeek.github.io/enseignement/)
+## Mailing lists and research groups
 
-More to come.
+For following news and job offers in AI
 
-## Info sources
+CNRS research groups
 
-Groupes de recherche du CNRS
 - [MADICS](https://www.madics.fr/)
 - [ISIS](http://www.gdr-isis.fr/)
 - [RO](http://gdrro.lip6.fr/)
 - [IA](https://www.gdria.fr/)
 
-Sociétés savantes
+French organizations
+
 - [AFIA](https://www.sfds.asso.fr/)
 - [SFdS](https://www.sfds.asso.fr/)
 - [ROADEF](https://www.societe-informatique-de-france.fr/)
@@ -38,6 +40,7 @@ Sociétés savantes
 - [SIF](https://www.societe-informatique-de-france.fr/)
 - [SMAI](http://smai.emath.fr/)
 
-Google groups
+Mailing lists
+
 - [ML-news](https://groups.google.com/forum/#!forum/ml-news)
 - [RL-list](https://groups.google.com/forum/#!forum/rl-list)

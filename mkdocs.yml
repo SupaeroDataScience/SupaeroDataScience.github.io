@@ -30,8 +30,8 @@ nav:
   - Seminars: seminars.md
 - Resources:
   - For current students: infostudents.md
-  - For partners: partners.md
   - For prospective students: students.md
+  - For partners: partners.md
 
 markdown_extensions:
 - markdown.extensions.codehilite:

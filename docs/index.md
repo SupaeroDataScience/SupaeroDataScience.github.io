@@ -69,8 +69,10 @@ Parallel classes shared with the Decision Systems program. The classes offered i
 
 ## <a id="fsd314"></a>Hackathon (FSD314)
 [Class website](https://supaerodatascience.github.io/hackathon.html)
+
 A 3 day hackathon with external partners on real-world challenges in Data Science.
 
 ## <a id="fsd319"></a>Seminars (FSD319)
 [Class website](https://supaerodatascience.github.io/seminars.html)
+
 Seminars given throughout the year on data science topics by academics and professional experts, challenges like Kaggle competitions, and more.
