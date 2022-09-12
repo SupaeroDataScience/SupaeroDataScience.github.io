@@ -148,13 +148,11 @@ git clone https://github.com/mwaskom/seaborn.git
 ### Questions
 
 
-30 | How many directories are there in the root directory of the `machine-learning` repository?
+31 | How many directories are there in the root directory of the `machine-learning` repository?
 
-31 | How many total files are there in the `machine-learning` repository and all subdirectories? Not counting hidden files like the `.git` repository
+32 | How many total files are there in the `machine-learning` repository and all subdirectories? Not counting hidden files like the `.git` repository
 
-32 How many python files are in the `machine-learning` repository and subdirectories?
-
-33 | What is the git remote "origin" url of the `machine-learning` repository?
+33 How many python files are in the `machine-learning` repository and subdirectories?
 
 34 | What is the short version of the commit ID of the first commit of the `machine-learning` repository?
 
