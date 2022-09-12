@@ -2,9 +2,9 @@
 
 ## Systems
 
-An overview of linux, python, git, ssh, and text editors to be used throughout the year.
+[Class website](https://supaerodatascience.github.io/systems.html)
 
-Link and resources coming soon.
+An overview of linux, python, git, and ssh to be used throughout the year.
 
 ## Seminars
 
