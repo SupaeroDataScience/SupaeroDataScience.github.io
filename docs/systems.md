@@ -71,7 +71,7 @@ Be sure to download all three files, using whichever method. You are ready to st
 
 9 | If the variable `STRING` is set to `to be or not to be`, what does the command `echo ${STRING[@]/be/eat}` return?
 
-10 | If the variable `a` is set to 3 and `b` is set to 4, what does the command `$a <= $b` return?
+10 | If the variable `a` is set to 3 and `b` is set to 4, what does the command `if [[ $a -le $b ]]; then echo $a; else echo $b; fi` return?
 
 11 | If the variable `p` is set to `(3 1 4 1 5 9)`, what does the command `echo $((${p[0]} * ${p[2]}))` return?
 
