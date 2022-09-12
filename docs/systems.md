@@ -51,10 +51,9 @@ Be sure to download all three files, using whichever method. You are ready to st
 
 ### Questions
 
-1 | Where is the `curl` executable located?
+1 | Where is the `curl` executable located? Some systems vary, if your answer is incorrect, try a common alternative.
 
 2 | Where is the `wget` executable located?
-
 
 3 | What is the linux command used for reading manuals?
 
