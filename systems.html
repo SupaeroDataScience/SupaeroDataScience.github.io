@@ -650,7 +650,7 @@ wget http://13.39.51.160/files/file_c.txt
 <p>7 | What is the <code>mv</code> command flag which will interactively prompt before overwriting files? Answer with just the letter, without <code>-</code></p>
 <p>8 | If the variable <code>STRING</code> is set to <code>banana</code>, what does the command <code>echo ${STRING:4}$</code> return?</p>
 <p>9 | If the variable <code>STRING</code> is set to <code>to be or not to be</code>, what does the command <code>echo ${STRING[@]/be/eat}</code> return?</p>
-<p>10 | If the variable <code>a</code> is set to 3 and <code>b</code> is set to 4, what does the command <code>$a &lt;= $b</code> return?</p>
+<p>10 | If the variable <code>a</code> is set to 3 and <code>b</code> is set to 4, what does the command <code>if [[ $a -le $b ]]; then echo $a; else echo $b; fi</code> return?</p>
 <p>11 | If the variable <code>p</code> is set to <code>(3 1 4 1 5 9)</code>, what does the command <code>echo $((${p[0]} * ${p[2]}))</code> return?</p>
 <p>12 | Where is the <code>grep</code> executable located?</p>
 <p>13 | What is the <code>grep</code> command flag used to select <em>non-matching</em> lines? Answer with just the letter, without <code>-</code></p>
