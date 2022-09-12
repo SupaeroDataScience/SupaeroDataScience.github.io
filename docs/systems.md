@@ -152,7 +152,7 @@ git clone https://github.com/mwaskom/seaborn.git
 
 32 | How many total files are there in the `machine-learning` repository and all subdirectories? Not counting hidden files like the `.git` repository
 
-33 How many python files are in the `machine-learning` repository and subdirectories?
+33 How many python or numpy files are in the `machine-learning` repository and subdirectories?
 
 34 | What is the short version of the commit ID of the first commit of the `machine-learning` repository?
 
