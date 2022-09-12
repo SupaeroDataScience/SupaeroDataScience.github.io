@@ -1,111 +1,98 @@
-# FSD319 - Seminars
+# Systems CTF
 
-## Python
+This class is a week long Capture the Flag event to get to know with the basics of systems usage, specifically linux, git, ssh. There is also a large section on python, with an emphasis on data science scripting practices using numpy and pandas in jupyter notebooks.
 
-Le couteau suisse de Python 3
+This is a self-guided exercise with resources and questions on this site. You, the participant, must look for the answer to the questions through reading documentation, discussing with others, and trying things. Try to avoid searching for answers online in a search engine; the answers can almost always be found in documentation.
 
-- Pour Windows, une distribution anaconda pour Python 3 (le plus récent)  est recommandé, car il gère automatiquement votre chemin et vos environnements Python
+Answers can be submitted through an API with the CTF server. Resources to answer different sections will be made available throughout the week; for example, some python questions require data which won't be available until the halfway point. Responding correctly to a question gives 1 point, and an additional 0.5 points are awarded for being the first to submit the correct answer to a question. That half point is the flag - be the first to capture it!
 
-   - https://www.anaconda.com/distribution/#download-section
+The CTF server's IP address is `13.39.51.160`. You can see a leaderboard there and it is the address for submitting answers. The first way we'll look at submitting answers is with `curl` in Linux.
 
-- Si vous n'êtes pas sûr de l'environnement python que vous utilisez, veuillez lire ce qui suit avant de continuer :
+## Linux
 
-   - https://realpython.com/python-virtual-environments-a-primer/
+Linux is an open-source operating system based on Unix. It is a standard choice for development and is the most dominant operating system for web servers, cloud computing, and high performance computing at 80% of global public servers. There are many different [distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions) but they share a common set of tools, notably [GNU](https://en.wikipedia.org/wiki/GNU) software. A very common Linux distribution is Android, at [73% of all mobile devices](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems), so you might be a Linux user already without realizing it!
 
-La grande (mais non exhaustive) liste des paquets python que nous utiliserons cette année à installer en utilisant soit pip soit conda :
+You most likely don't use Linux as the operating system of your personal computer, however. If you **are** using one the 2.5 % of personal computers with Linux, you can skip straight to the Submission section
 
- 
+MacOS is also based on Unix, so if you're using MacOS, most things should work just as in Linux! A few commands will be different from the course instructions, and the questions will always refer to Linux resources, for example documentation. It is highly recommended to install homebrew (https://brew.sh/) which will allow for package installation via the command line.
 
-numpy
-pandas
-scipy
-matplotlib
-scikit-learn
-jupyter
-keras
-torch
-geos
-graphviz
-nltk
-networkx
-statsmodels
-pyspark
-altair
-cython
-cma
-gym
-gym[atari]
-gym[classic_control]
-gym[box2d]
-gym[algorithms]
-roboschool
+### Installation on Windows
 
-Cartopy
-Installez également Cartopy, qui a d'autres dépendances :
-https://scitools.org.uk/cartopy/docs/latest/installing.html#installing
+The easiest way to use Linux on Windows is through the Windows Subsystem for Linux. Installation instructions are here: [https://docs.microsoft.com/en-us/windows/wsl/install](https://docs.microsoft.com/en-us/windows/wsl/install). Make sure to follow all instructions carefully. If asked to join a "Windows Insiders Program", ignore this. By default, this installs Ubuntu, which is good for this systems class and for all of SDD.
 
-Quelques outils utiles pour jupyter notebooks :
+The WSL is similar to a virtual machine inside of Windows, but it integrates with some existing components of Windows. You can access your Windows files from Linux at `/mnt/`, but you should make sure you're familiar with Linux first.
 
-Replier les cellules d'un notebook (https://stackoverflow.com/questions/33159518/collapse-cell-in-jupyter-notebook) :
++ [About the WSL](https://docs.microsoft.com/en-us/windows/wsl/about)
++ [WSL FAQ](https://docs.microsoft.com/en-us/windows/wsl/faq)
++ [How to Access WSL Linux Files from Windows](https://www.howtogeek.com/426749/how-to-access-your-linux-wsl-files-in-windows-10/)
 
-$ pip install jupyter_contrib_nbextensions
-$ jupyter contrib nbextension install --user
+### Submission
 
-$ pip install jupyter_nbextensions_configurator
-$ jupyter nbextensions_configurator enable --user
+Once you have a Unix-type environment, either native Linux or macOS, or through the WSL, you're ready to submit to the CTF. You will use the `curl` command; you can verify that you have `curl` by running `which curl` in the command line. `curl` is a tool for transferring data from or to a server. How do you know that? By checking the documentation of `curl` using `man curl`. Try it out!
 
-Ouvrir des notebooks en double-cliquant dessus (https://github.com/takluyver/nbopen) :
+To respond to a question, send a POST request with the data of the question `number` and `answer`, and your username as `user` (your username should be your ISAE login, but you can also check on the leaderboard). For example, the first question asks where the `curl` executable is (hint: use `which`). Then use `curl`:
 
-$ pip install nbopen
-$ python -m nbopen.install_xdg
+```bash
+curl -X POST 'http://13.39.51.160/' \
+    -d 'number=1' \
+    -d 'answer=your answer here' \
+    -d 'user=your username here'
+```
 
-Les présentations basées sur les notebooks (https://github.com/damianavila/RISE) :
+Some of the questions will require access to some files, called `file_a.txt`, `file_b.txt`, and `file_c.txt`. Here are three different ways to download using `curl` and `wget`:
 
-$ pip install RISE
+```bash
+curl http://13.39.51.160/files/file_a.txt -o file_a.txt
+curl http://13.39.51.160/files/file_b.txt > file_b.txt
+wget http://13.39.51.160/files/file_c.txt
+```
 
-Avoir des git diffs et des git merge lisibles sur les notebooks (https://github.com/jupyter/nbdime) :
+Be sure to download all three files, using whichever method. You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using `man`.
 
-$ pip install nbdime
-$ nbdime config-git –enable –global
+### Questions
 
-Pilotes GPU pour Deep Learning
+1. Where is the `curl` executable located?
+2. Where is the `wget` executable located?
+3. What is the linux command used for reading manuals?
+4. What is the longer name of the `-K` flag to `curl`? Answer with just the name, without `--`
+5. What is the `ls` command flag used for human-readable output? Answer with just the letter, without `-`
+6. What is the `cp` command flag allowing for copying directories? Answer with just the letter, without `-`
+7. What is the `mv` command flag which will interactively prompt before overwriting files? Answer with just the letter, without `-`
+8. If the variable `STRING` is set to `banana`, what does the command `echo ${STRING:4}$` return?
+9. If the variable `STRING` is set to `to be or not to be`, what does the command `echo ${STRING[@]/be/eat}` return?
+10. If the variable `a` is set to 3 and `b` is set to 4, what does the command `$a <= $b` return?
+11. If the variable `p` is set to `(3 1 4 1 5 9)`, what does the command `echo $((${p[0]} * ${p[2]}))` return?
+12. Where is the `grep` executable located?
+13. What is the `grep` command flag used to select *non-matching* lines? Answer with just the letter, without `-`
+14. What is the longer name of the `-c` flag to `grep`? Answer with just the name, without `--`
+15. What is the `cat` command flag which shows line numbers? Answer with just the letter, without `-`
+16. What does the command `head -n 10 file_a.txt | wc -l` return?
+17. How many lines are in `file_a.txt`?
+18. How many characters are in `file_c.txt`?
+19. How many words in `file_a.txt` start with the letter "d"?
+20. How many four-letter words are in `file_a.txt`?
+21. What is the last word in `file_b.txt`?
+22. How many words contain "ello" inside them in `file_b.txt`?
+23. What is the line number of the word "helicopter" in `file_b.txt`?
+24. What is the line number of the word "croissant" in `file_c.txt`?
+25. How many words contain "croissant" inside them in `file_c.txt`?
+26. How many words start with the letter "c" in `file_c.txt`?
+27. How many words end with the letter "t" in `file_c.txt`?
+28. How many words have the letter "o" directly followed by either "u" or another "o" in `file_c.txt`?
+29. What word is at the same line in `file_c.txt` as the word sheep is in `file_a.txt`?
+30. What is the second word in `file_c.txt` which contains the letter `x`?
 
-Uniquement pour ceux qui ont un GPU dédié sur leur machine personnelle
+### Resources
 
-Installation de drivers CUDA :
-https://developer.nvidia.com/cuda-downloads
++ [ISAE class on CLI, Linux, and Bash](https://lms.isae.fr/course/view.php?id=1111)
++ [Shell class from MIT](https://missing.csail.mit.edu/2020/course-shell/)
++ [Bash exercises](https://www.learnshell.org)
++ [More bash exercises](https://exercism.io/tracks/bash)
++ [Short exercises in regular expressions](https://regexone.com/)
 
-Installation de drivers OpenCL :
-→Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont là :
-http://www.nvidia.com/Download/index.aspx?lang=en-us
-→Si le PC a une carte graphique AMD, les drivers OpenCL sont là :
-https://www.amd.com/en-us/solutions/professional/hpc/opencl
-→ Si le PC a seulement un processeur Intel, les drivers OpenCL sont là :
-https://software.intel.com/en-us/articles/opencl-drivers
-→ Sur Mac, OpenCL est déjà installé :
-https://support.apple.com/fr-fr/HT202823
+## Git
 
-→Version GPU de Tensorflow et Pytorch:
-
-pip install tensorflow-gpu pytorch-gpu
-
-## SSH
-
-
-
-## Systems
-
-### Git
-
-Auto-formation Git et GitHub : commencez par visionner les vidéos (et pratiquer en même temps) :
-https://www.youtube.com/playlist?list=PLjwdMgw5TTLXuY5i7RW0QqGdW0NZntqiP (jusqu'à la vidéo 11 incluse au strict minimum)
-Et faites les activités guidées de :
-https://lab.github.com/githubtraining/introduction-to-github
-
-Vous devez créer une clé SSH pour votre compte en suivant les instructions suivantes: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-
-Exercice
+[create an SSH key and add it to your account](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
     Créez un compte GitHub si ce n'est pas déjà fait.
     Créez un fork du dépôt https://github.com/SupaeroDataScience/etudiants-sdd-XXXXXX où XXXXXX est l'année scolaire en cours (par exemple 201819)
@@ -113,141 +100,48 @@ Exercice
     Faites un commit en ajoutant ce fichier
     Faites un Pull Request au dépôt de base (https://github.com/SupaeroDataScience/etudiants-sdd-XXXXXX) pour que les modifications que vous avez faites soient intégrées dessus.
 
-
-Ressources supplémentaires
-
-    https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL
-    https://learngitbranching.js.org/
-    https://git-scm.com/book/en/v2
-    La cheat-sheet git https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+### Questions
 
 
-### Éditeur de texte
-Programmer n'est pas comme écrire des documents Word, il s'agit souvent de travailler avec de nombreux fichiers différents, de manipuler de grandes quantités de texte de manière spécifique et répétée, et de suivre une syntaxe structurée bien au-delà du langage humain. Les éditeurs de texte aident à accomplir toutes ces tâches. Les plus populaires historiquement sont Vim et Emacs. Vous pouvez choisir n'importe quel éditeur de texte, mais il est recommandé de bien apprendre comment il fonctionne.
+### Resources
 
-Vim
++ [Git course](https://www.youtube.com/playlist?list=PLjwdMgw5TTLXuY5i7RW0QqGdW0NZntqiP)
++ [Introduction to github](https://lab.github.com/githubtraining/introduction-to-github)
++ [Github video course](https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL)
++ [Learn git branching](https://learngitbranching.js.org/)
++ [Git SCM book](https://git-scm.com/book/en/v2)
++ [Git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
-$ sudo apt install vim
-$ vimtutor
 
-Pour plus d'informations : https://missing.csail.mit.edu/2020/editors/
+## SSH
 
-Emacs
+Starting on Wednesday, you will connect to the CTF server to answer questions about the remote environment. Your public key must be uploaded to the git repository above to get access to the server. You will use the corresponding private key to access the server.
 
-$ sudo apt install emacs
+### Questions
 
-https://www.emacswiki.org/emacs/LearningEmacs
+0. What is the hostname of the server?
+1. What is the operating system of the server?
+2. How many files (excluding directories) are there in ~/?
+3. What are the directories with binary executables accessible to the user (ie PATH)?
+4. How many binary executables are available to the user?
+5. What is the MAC address of the ethernet device of the server?
+6. What is the internal IP address of the server?
 
-Atom
-https://atom.io/
+### Resources
 
-Visual Studio
-https://code.visualstudio.com/
-Notez que le code VS dispose d'un mode interactif spécifique comme les notebooks Jupyter: https://code.visualstudio.com/docs/python/jupyter-support-py
-# FSD319 Seminars
++ [Ubuntu ssh manual](https://doc.ubuntu-fr.org/ssh)
++ [Guide in French](https://openclassrooms.com/en/courses/43538-reprenez-le-controle-a-laide-de-linux/41773-la-connexion-securisee-a-distance-avec-ssh)
++ [Cryptographie Asymétrique](https://www.youtube.com/watch?v=MuNyEoU5tSo)
++ [How SSH works](https://www.youtube.com/watch?v=ORcvSkgdA58)
 
-# Le paquet logiciels SDD
+## Python
 
-Votre boîte à outils sur votre ordi perso, tout au long de l'année !
+An overview and reminder of the python programming language, with a focus on numpy and pandas manipulation using Jupyter.
 
-### Une machine virtuelle ?
+### Installation
 
-Auto-formation virtual-box : [http://lms.isae.fr/course/view.php?id=1111](http://lms.isae.fr/course/view.php?id=1111)
+### Questions
 
-### Distribution GNU/Linux
-On vous recommande d'installer une distribution Linux Ubuntu-like (ou Debian-like) pour trouver facilement de l'aide si besoin.
+Questions will be revealed on Wednesday
 
-### Le langage R
-- L'interpréteur du langage R
-~~~~
-> sudo apt install r-base
-~~~~
-- L'environnement de développement R-studio Desktop
-[https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
-
-### Le langage Scala
-- L'interpréteur du langage Scala et le Scala Build Tool
-~~~~
-> echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-> sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
-> sudo apt-get update
-> sudo apt-get install sbt
-~~~~
-
-### Le couteau suisse de Python 3 (le plus récent) via Anaconda (https://www.anaconda.com/download)
-- Une [distribution anaconda pour Python 3 (le plus récent)](https://www.anaconda.com/distribution/#download-section)
-- En principe par défaut vous avez déjà les paquets de base (numpy, pandas, scipy, matplotlib, scikit-learn) sinon vous pouvez les ajouter avec la commande "conda install nom-du-paquet"
-- Quelques paquets conda en plus
-~~~~
-> conda install tensorflow keras pytorch proj4 geos graphviz python-graphviz nltk networkx statsmodels pyspark
-~~~~
-- Pour ceux qui ont une carte graphique NVIDIA (à regarder après avoir fait [la partie plus bas concernant votre carte graphique](#GPU))
-~~~~
-> conda install tensorflow-gpu pytorch-gpu
-~~~~
-- Et quelques paquets pour lesquels il vaut mieux utiliser pip (si possible le pip de votre distribution conda qui devrait devenir la commande pip par défaut si vous n'avez pas fait une installation exotique)
-~~~~
-> pip install pulp facile cartopy altair ipyleaflet cython cma vispy gym gym[atari] gym[classic_control] gym[box2d] gym[algorithms] roboschool
-~~~~
-
-### <a id="GPU"></a>Pilotes GPU
-
-Installation de drivers CUDA :
-[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
-
-Installation de drivers OpenCL :
-- Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont [là](http://www.nvidia.com/Download/index.aspx?lang=en-us)
-- Si le PC a une carte graphique AMD, les drivers OpenCL sont [là](https://www.amd.com/en-us/solutions/professional/hpc/opencl)
-- Si le PC a seulement un processeur Intel, les drivers OpenCL sont [là](https://software.intel.com/en-us/articles/opencl-drivers)
-- Sur Mac, [OpenCL est déjà installé](https://support.apple.com/fr-fr/HT202823)
-
-Compilateurs possibles :
-- gcc/g++, Clang/xCode, Visual Studio, ...
-
-Librairies / d’interfaces pour la programmation :
-- Librairie [pycuda en Python](https://mathema.tician.de/software/pycuda/)
-~~~~
-> pip install pycuda
-~~~~
-- Librairie [pyopencl en Python](https://mathema.tician.de/software/pyopencl/)
-~~~~
-> pip install pyopencl
-~~~~
-→ Interface [Boost en C++](http://www.boost.org/doc/libs/1_63_0/libs/compute)
-
-### La base de données PostgreSQL
-~~~~
-> sudo apt install postgresql-11 pgadmin3
-~~~~
-
-Il y aura sûrement d'autres choses à installer en cours d'année mais vous avez une base très complète avec ça.
-
-Notez que vous avez également accès gratuitement (avec votre statut étudiant) au solver de programmation linéaire et programmation par contraintes [IBM ILOG CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio). Il n'est pas nécessaire de l'installer mais ça peut être utile pour reproduire les BE joués au SI.
-
-[Tableau software](https://www.tableau.com/academic/students) (à installer vers mars)
-
-### Quelques outils utiles pour jupyter notebooks :
-[Replier les cellules d'un notebook](https://stackoverflow.com/questions/33159518/collapse-cell-in-jupyter-notebook) :
-
-~~~~
-pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
-
-pip install jupyter_nbextensions_configurator
-jupyter nbextensions_configurator enable --user
-~~~~
-
-[Ouvrir des notebooks en double-cliquant dessus](https://github.com/takluyver/nbopen) :
-
-~~~~
-pip install nbopen
-python -m nbopen.install_xdg
-~~~~
-
-[Avoir des git diffs et des git merge lisibles sur les notebooks](https://github.com/jupyter/nbdime) :
-
-~~~~
-pip install nbdime
-nbdime config-git –enable –global
-~~~~
-
+### Resources
