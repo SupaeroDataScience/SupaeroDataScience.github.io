@@ -91,7 +91,7 @@ Be sure to download all three files, using whichever method. You are ready to st
 
 19 | How many words in `file_a.txt` start with the letter "d"?
 
-20 | How many words are in `file_a.txt` that contain only 4 lowercase letters?
+20 | How many words are in `file_a.txt` that contain only 4 lowercase (English) letters?
 
 21 | What is the last word in `file_b.txt`?
 
