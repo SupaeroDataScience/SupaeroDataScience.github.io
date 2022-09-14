@@ -740,7 +740,7 @@ git clone https://github.com/mwaskom/seaborn.git
 <p>39 | How many different unique user addresses have pushed commits to the <code>machine-learning</code> repository?</p>
 <p>40 | What is the name of the LICENSE of the <code>machine-learning</code> repository? Hint: it is also the full first line of the LICENSE file</p>
 <p>41 | What is the git remote "origin" url of the seaborn repository?</p>
-<p>42 | What is the full version of the commit ID of the version 0.12 of seaborn?</p>
+<p>42 | What is the full version of the last commit ID in the 0.12 version branch of seaborn?</p>
 <p>43 | How many commits are in the <code>master</code> branch of seaborn?</p>
 <p>44 | What is the last item of the seaborn repository's gitignore?</p>
 <p>45 | How many tagged commits are there in the seaborn repository?</p>
@@ -879,6 +879,103 @@ gym
 <p>99 | According to <a href="https://peps.python.org/pep-0008/">PEP 8</a>, how many spaces should be used as indentation?</p>
 <p>100 | According to <a href="https://peps.python.org/pep-0008/">PEP 8</a>, what is the name of the convention used for naming classes?</p>
 <p>Questions 101 - 120 are the responses to the exercises in the Jupyter notebook <code>python_intro.ipynb</code>, which is in the <code>ctf2022</code> github repository. Some exercises can be solved by running the code in them; try to figure them out before running the code to get the solution.</p>
+<p>121 | What is the type of <code>a</code> in the code <code>a = [None] * 4</code>?</p>
+<p>122 | What is the character used to start a comment in Python?</p>
+<p>123 | True or False: <code>is</code> checks if the <em>value</em> of two variables are the same.</p>
+<p>124 | True or False: <code>==</code> checks if the <em>value</em> of two variables are the same.</p>
+<p>125 | What is the return value of the following code?</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">[:]</span>
+<span class="n">b</span> <span class="ow">is</span> <span class="n">a</span>
+</code></pre></div>
+<p>126 | What is the return value of the following code?</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;bonjour&#39;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">&quot;bonjour&quot;</span>
+<span class="n">a</span> <span class="ow">is</span> <span class="n">b</span>
+</code></pre></div>
+<p>127 | Which of <code>math.ceil</code> and <code>math.floor</code> gives the same result as <code>round</code> for 0.5?</p>
+<p>128 | What is the keyword used to start a function definition?</p>
+<p>129 | What is the name of the function used to remove whitespace in a python string?</p>
+<p>130 | What is the type of the following code: <code>["a", "b", "c"]</code>?</p>
+<p>131 | What is the type of the following code: <code>{"a", "b", "c"}</code>?</p>
+<p>132 | What is the type of the following code: <code>"a", "b", "c"</code>?</p>
+<p>133 | How many times does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+<p>134 | How many times does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+<p>135 | How many times does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+<p>136 | How many times does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+   <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+       <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+           <span class="k">break</span>
+   <span class="k">else</span><span class="p">:</span>
+       <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</code></pre></div>
+<p>137 | What does <code>http_error(402)</code> return in the following code?</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">http_error</span><span class="p">(</span><span class="n">status</span><span class="p">):</span>
+    <span class="k">match</span> <span class="n">status</span><span class="p">:</span>
+        <span class="k">case</span> <span class="mi">400</span> <span class="o">|</span> <span class="mi">401</span> <span class="o">|</span> <span class="mi">403</span> <span class="o">|</span> <span class="mi">404</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;Bad request&quot;</span>
+        <span class="k">case</span> <span class="mi">418</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;I&#39;m a teapot&quot;</span>
+        <span class="k">case</span> <span class="k">_</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;Something&#39;s wrong with the internet&quot;</span>
+</code></pre></div>
+<p>138 | What does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="o">/</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">foo</span><span class="p">(</span><span class="n">arg</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</code></pre></div>
+<p>139 | What does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">arg</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">foo</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</code></pre></div>
+<p>140 | What does the following code print?</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="o">/</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">foo</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</code></pre></div>
+<p>141 | What is the return value of the following code?</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">timedelta</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">weeks</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">hours</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">seconds</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">seconds</span><span class="o">=</span><span class="mi">32</span><span class="p">,</span> <span class="n">days</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">weeks</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
+</code></pre></div>
+<p>142 | What is the first argument to the <code>datetime.date</code> function?</p>
+<p>143 | What is the return value of the following code?</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+<span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span> <span class="o">==</span> <span class="n">date</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span>
+</code></pre></div>
+<p>144 | What is the directive used for a month's full name in <code>strftime</code>?</p>
+<p>145 | What is the second to last element of a datetime <code>timetuple</code>?</p>
 <p>Questions on Numpy and Pandas will be released on Thursday morning. If you have reached question 120 before then, congratulations! Take a look at the resources to prepare for Thursday or help out any friends who haven't reached 120 yet.</p>
 <h3 id="resources_4">Resources<a class="headerlink" href="#resources_4" title="Permanent link">🔗</a></h3>
 <ul>
