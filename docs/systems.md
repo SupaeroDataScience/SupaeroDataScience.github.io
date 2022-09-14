@@ -565,6 +565,44 @@ date.today() == date.fromtimestamp(time.time())
 
 145 | What is the second to last element of a datetime `timetuple`?
 
+146 | What is the result of `math.fsum([0.1]*10)`?
+
+147 | What is the result of `sum` on the same list?
+
+148 | What is the result of `math.isclose(math.fsum([0.1]*10), sum([0.1]*10))`?
+
+149 | What is the python `math` function to check if a value is not a number?
+
+150 | What is the return value of the code `math.log(1234, 10) == math.log10(1234)`?
+
+151 | What is the return value of `math.pow(3, 0)`?
+
+152 | What is the name of the python standard library that contains the functions `mean`, `median`, and `mode`?
+
+153 | What is the name of the `pickle` function to write a pickled version of an object to a file?
+
+154 | True or False: all classes that are defined inside a module can be pickled.
+
+155 | What does the following code print?
+
+```python
+print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+```
+
+156 | What is the expected type of the first argument of `json.loads`?
+
+157 | What does the value "null" in JSON correspond to in Python?
+
+158 | What is the return of the following code?
+
+```python
+json.loads('{"x": 1, "x": 2, "x": 3}')
+```
+
+159 | What is the function name in the `requests` package to make an HTTP POST request?
+
+160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the `requests` library?
+
 Questions on Numpy and Pandas will be released on Thursday morning. If you have reached question 120 before then, congratulations! Take a look at the resources to prepare for Thursday or help out any friends who haven't reached 120 yet.
 
 ### Resources
