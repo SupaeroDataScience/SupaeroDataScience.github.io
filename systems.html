@@ -550,6 +550,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#linux-tools" class="md-nav__link">
+    Linux tools
+  </a>
+  
+    <nav class="md-nav" aria-label="Linux tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#questions_3" class="md-nav__link">
+    Questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources_3" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
     Python
   </a>
@@ -572,14 +599,14 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#questions_3" class="md-nav__link">
+  <a href="#questions_4" class="md-nav__link">
     Questions
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#resources_3" class="md-nav__link">
+  <a href="#resources_4" class="md-nav__link">
     Resources
   </a>
   
@@ -640,6 +667,12 @@ curl http://13.39.51.160/files/file_b.txt &gt; file_b.txt
 wget http://13.39.51.160/files/file_c.txt
 </code></pre></div>
 <p>Be sure to download all three files, using whichever method. You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using <code>man</code>.</p>
+<p>You can see which questions you have answered by sending a GET request:</p>
+<div class="highlight"><pre><span></span><code>curl <span class="s1">&#39;http://13.39.51.160/user/d.wilson&#39;</span>
+</code></pre></div>
+<p>You can also see which questions have remaining flags, the bonus points associated with answering the question for the first time, with a GET request:</p>
+<div class="highlight"><pre><span></span><code>curl <span class="s1">&#39;http://13.39.51.160/answers/&#39;</span>
+</code></pre></div>
 <h3 id="questions">Questions<a class="headerlink" href="#questions" title="Permanent link">🔗</a></h3>
 <p>1 | Where is the <code>curl</code> executable located? Some systems vary, if your answer is incorrect, try a common alternative.</p>
 <p>2 | Where is the <code>wget</code> executable located?</p>
@@ -694,7 +727,7 @@ git clone https://github.com/mwaskom/seaborn.git
 </code></pre></div>
 <h3 id="questions_1">Questions<a class="headerlink" href="#questions_1" title="Permanent link">🔗</a></h3>
 <p>31 | How many directories are there in the root directory of the <code>machine-learning</code> repository?</p>
-<p>32 | How many total files are there in the <code>machine-learning</code> repository and all subdirectories? Not counting hidden files like the <code>.git</code> repository</p>
+<p>32 | How many total files are there in the <code>machine-learning</code> repository and all subdirectories? Not counting directories or hidden files like the <code>.git</code> repository</p>
 <p>33 How many python or numpy files are in the <code>machine-learning</code> repository and subdirectories?</p>
 <p>34 | What is the short version of the commit ID of the first commit of the <code>machine-learning</code> repository?</p>
 <p>35 | What is the long version of the commit ID of the most recent commit of the <code>machine-learning</code> repository?</p>
@@ -725,27 +758,72 @@ git clone https://github.com/mwaskom/seaborn.git
 <h3 id="git-exercise">Git Exercise<a class="headerlink" href="#git-exercise" title="Permanent link">🔗</a></h3>
 <p>In order to access the server for the next parts of the CTF, you will need to provide your public ssh key. The SSH section has references explaining <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a>, but in general you will make a key pair with a private side and public side. You will give the public side to services like this class or Github to perform secure communication, keeping your private key secret to prove that it is you. </p>
 <p>First, start by making a key pair and uploading your public key to Github. This will allow you use to SSH to make push requests, instead of using a personal access token. <a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Create an SSH key and add it to your Github account</a>.</p>
-<p>Then, we will use git as a way for you to transfer your public key to the class. We could use another means, like a USB key, email, or a very large QR code, but for this exercise we will use git. First <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">make a fork</a> of the [https://github.com/SupaeroDataScience/ctf2022(https://github.com/SupaeroDataScience/ctf2022) repository. Then, <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">make a pull request</a> with your key as a file in <code>keys/</code>. Please name your key with your name, like the example <code>keys/dennis-wilson.pub</code>. Be sure to upload <strong>only your public key</strong>. Do not ever upload your private key to public servers.</p>
+<p>Then, we will use git as a way for you to transfer your public key to the class. We could use another means, like a USB key, email, or a very large QR code, but for this exercise we will use git. First <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">make a fork</a> of the <a href="https://github.com/SupaeroDataScience/ctf2022">https://github.com/SupaeroDataScience/ctf2022</a> repository. Then, <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">make a pull request</a> with your key as a file in <code>keys/</code>. Please name your key with your name, like the example <code>keys/dennis-wilson.pub</code>. Be sure to upload <strong>only your public key</strong>. Do not ever upload your private key to public servers.</p>
 <p>Once your key is in the repository, you are ready for the SSH and Python portions of the CTF.</p>
 <h2 id="ssh">SSH<a class="headerlink" href="#ssh" title="Permanent link">🔗</a></h2>
-<p>Starting on Wednesday, you will connect to the CTF server to answer questions about the remote environment. Your public key must be uploaded to the git repository above to get access to the server. You will use the corresponding private key to access the server.</p>
+<p>Starting on Wednesday, you will connect to the CTF server to answer questions about the remote environment. Your public key must be uploaded to the git repository above to get access to the server. You will use the corresponding private key to access the server. Your user on the server is <code>ctf</code> and the IP is the same as the CTF webserver: <code>13.39.51.160</code>.</p>
+<p>Please note that <em>ISAE-EDU and ethernet block ssh to most servers</em>, including this one and <code>github.com</code>. In order to ssh to the server, you will need to either use the eduroam network or a different network like a mobile hotspot.</p>
 <h3 id="questions_2">Questions<a class="headerlink" href="#questions_2" title="Permanent link">🔗</a></h3>
-<p>51 | What is the hostname of the server?</p>
-<p>52 | What is the kernal name of the server?</p>
-<p>53 | How many files (excluding directories) are there in ~/?</p>
-<p>54 | What are the directories with binary executables accessible to the user (ie PATH)?</p>
-<p>55 | How many binary executables are available to the user?</p>
-<p>56 | What is the MAC address of the ethernet device of the server?</p>
-<p>57 | What is the internal IP address of the server?</p>
-<p>58 | What is the network node hostname of the server?</p>
-<p>59 | What is the remote origin url of the git repository at <code>~/repo/</code>?</p>
-<p>60 | How many lines are in the file <code>~/repo/.git/config</code>?</p>
+<p>51 | What is the name of the linux command used to generate SSH keys?</p>
+<p>52 | What is the letter of the flag to specify the number of bits when generating an ssh key?</p>
+<p>53 | What is the letter of the <code>ssh</code> flag that denotes the private key to use for authentification?</p>
+<p>54 | What is the letter of the <code>ssh</code> flag to run a command on the remote host?</p>
+<p>55 | What is the default port for <code>ssh</code>?</p>
+<p>56 | What is the first default private key file used by <code>ssh</code>?</p>
+<p>57 | What is the escape command to disconnect from an <code>ssh</code> pseudoterminal?</p>
+<p>58 | What is the standard location of the per-user ssh configuation file in Linux?</p>
+<p>59 | What is the keyword to specify the private key file in an ssh configuration file?</p>
+<p>The following questions pertain to the remote server.</p>
+<p>60 | How many files (excluding directories) are there in <code>~/</code>?</p>
+<p>61 | What are the directories with binary executables accessible to the user (ie PATH)?</p>
+<p>62 | How many binary executables are available to the user?</p>
+<p>63 | What is the hostname of the server?</p>
+<p>64 | What is the kernel name of the server?</p>
+<p>65 | What is the release of the kernel of the server?</p>
+<p>66 | What is the MAC address of the ethernet device of the server?</p>
+<p>67 | What is the internal IP address of the server?</p>
+<p>68 | What is the timezone of the server?</p>
+<p>69 | What is the remote origin url of the git repository at <code>~/repo/</code>?</p>
+<p>70 | What is the name of the file (without the path) that has been removed in the git repository?</p>
+<p>71 | How many lines are in the file <code>~/repo/data/dogc.txt</code>?</p>
+<p>72 | What is the last line of the file <code>~/repo/data/muni-cat.txt</code>?</p>
+<p>73 | What is the filename and line number of the 100th instance of "ee" in all of the files in <code>~/repo/data/</code>? Answer in "filename:number" format</p>
+<p>74 | How many <code>.txt</code> files are on the whole server?</p>
+<p>75 | How many <code>.txt</code> files are in the home directory or its subdirectories?</p>
 <h3 id="resources_2">Resources<a class="headerlink" href="#resources_2" title="Permanent link">🔗</a></h3>
 <ul>
 <li><a href="https://doc.ubuntu-fr.org/ssh">Ubuntu ssh manual</a></li>
 <li><a href="https://openclassrooms.com/en/courses/43538-reprenez-le-controle-a-laide-de-linux/41773-la-connexion-securisee-a-distance-avec-ssh">Guide in French</a></li>
 <li><a href="https://www.youtube.com/watch?v=MuNyEoU5tSo">Cryptographie Asymétrique</a></li>
 <li><a href="https://www.youtube.com/watch?v=ORcvSkgdA58">How SSH works</a></li>
+</ul>
+<h2 id="linux-tools">Linux tools<a class="headerlink" href="#linux-tools" title="Permanent link">🔗</a></h2>
+<p>Now that you're an expert in Linux, let's quickly look at some useful tools. You may need to install some of these, either using <code>apt</code>, <code>brew</code>, <code>yum</code>, <code>pacman</code>, or whichever package manager you use. Linux comes with many programs installed by default, especially distributions like Ubuntu, however the tools in this section will be more useful than the base Linux tools. We'll cover four: <code>apt</code> for package management, <code>top</code> for system monitoring, <code>tmux</code> for terminal management, and <code>vim</code> for file editing. There are alternatives to all of these programs that are great, but it is worth being familiar with these four.</p>
+<h3 id="questions_3">Questions<a class="headerlink" href="#questions_3" title="Permanent link">🔗</a></h3>
+<p>76 | What is the <code>apt</code> command used to install available updates?</p>
+<p>77 | What is the letter of the <code>apt-get</code> command flag to perform a test run of the installation that does not actually change the system?</p>
+<p>78 | What is the file which lists locations that <code>apt</code> fetches packages from?</p>
+<p>79 | What is the name of the first column in <code>top</code> by default?</p>
+<p>80 | What is the letter of the command in <code>top</code> to kill a process?</p>
+<p>81 | What is the <code>tmux</code> command to list all running sessions?</p>
+<p>82 | What is the <code>tmux</code> command to use an existing session?</p>
+<p>83 | What is the letter of the tmux key binding to create a new window inside <code>tmux</code>?</p>
+<p>84 | What is the letter of the tmux key binding to leave the current client without stopping it?</p>
+<p>85 | If you run <code>tmux</code> on a remote server and then disconnect, will the <code>tmux</code> session end? "yes" or "no"</p>
+<p>86 | What is the name for the tutorial command to learn <code>vim</code>?</p>
+<p>87 | What is the name of the mode <code>vim</code> starts in by default?</p>
+<p>88 | What is the command to quit vim, without saving changes?</p>
+<p>89 | What is the letter used to navigate up in <code>vim</code>?</p>
+<p>90 | What is the file used for a user's <code>vim</code> configuration?</p>
+<h3 id="resources_3">Resources<a class="headerlink" href="#resources_3" title="Permanent link">🔗</a></h3>
+<ul>
+<li><a href="https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html">apt manual</a></li>
+<li><a href="https://itsfoss.com/linux-system-monitoring-tools/">Alternatives to top</a></li>
+<li><a href="https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/">Guide to tmux</a></li>
+<li><a href="https://tmuxcheatsheet.com/">tmux cheat sheet</a></li>
+<li><a href="https://missing.csail.mit.edu/2020/editors/">Editors from MIT class</a></li>
+<li><a href="https://vim-adventures.com/">Vim adventures</a></li>
+<li><a href="https://tldr.sh/">tldr, short man pages</a></li>
 </ul>
 <h2 id="python">Python<a class="headerlink" href="#python" title="Permanent link">🔗</a></h2>
 <p>An overview and reminder of the python programming language, with a focus on numpy and pandas manipulation using Jupyter.</p>
@@ -786,11 +864,23 @@ gym
 <p><a href="https://jupyter.org/">Jupyter</a> (stands for the three original languages in the project: Julia, Python, and R) is a way to use and develop code interactively in the browser. Once you've installed the jupyter package, you can run a Jupyter notebook by simply running <code>jupyter notebook</code>.</p>
 <p>For Windows users, you can run Jupyter in the WSL. As explained in <a href="https://harshityadav95.medium.com/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536">this blog post</a>, you simply need to execute <code>jupyter notebook --no-browser</code> on the WSL and then copy and paste the URL and token generated into a Windows browser.</p>
 <p>Some additional packages for improving Jupyter are <code>nbopen nbdime RISE</code>. Be sure to read their documentation before installing to verify if these are relevant to you.</p>
-<h3 id="questions_3">Questions<a class="headerlink" href="#questions_3" title="Permanent link">🔗</a></h3>
-<p>Questions will be revealed on Wednesday</p>
-<h3 id="resources_3">Resources<a class="headerlink" href="#resources_3" title="Permanent link">🔗</a></h3>
+<h3 id="questions_4">Questions<a class="headerlink" href="#questions_4" title="Permanent link">🔗</a></h3>
+<p>91 | What is the name of the standard python library module for creating virtual environments?</p>
+<p>92 | What is the name of the command used for activating an environment when using virtualenv?</p>
+<p>93 | What is the name of the <code>pip</code> command used to display all currently installed packages, in a format that can be used to install them using <code>pip</code>?</p>
+<p>94 | What is the URL of the Python Package Index?</p>
+<p>95 | What is the <code>jupyter</code> command to convert a notebook to a different file type?</p>
+<p>96 | In what year did Python first appear?</p>
+<p>97 | What is the latest major stable version of Python?</p>
+<p>98 | What was the end-of-life date for Python 3.6? Use YYYY-MM-DD format.</p>
+<p>99 | According to <a href="https://peps.python.org/pep-0008/">PEP 8</a>, how many spaces should be used as indentation?</p>
+<p>100 | According to <a href="https://peps.python.org/pep-0008/">PEP 8</a>, what is the name of the convention used for naming classes?</p>
+<p>Questions 101 - 120 are the responses to the exercises in the Jupyter notebook <code>python_intro.ipynb</code>, which is in the <code>ctf2022</code> github repository. Some exercises can be solved by running the code in them; try to figure them out before running the code to get the solution.</p>
+<p>Questions on Numpy and Pandas will be released on Thursday morning. If you have reached question 120 before then, congratulations! Take a look at the resources to prepare for Thursday or help out any friends who haven't reached 120 yet.</p>
+<h3 id="resources_4">Resources<a class="headerlink" href="#resources_4" title="Permanent link">🔗</a></h3>
 <ul>
 <li><a href="https://docs.python.org/3/index.html">Python 3.10 Documentation</a></li>
+<li><a href="https://pypi.org/project/pip/">Pip documentation</a></li>
 <li><a href="https://cs231n.github.io/python-numpy-tutorial/">Stanford Python and Numpy tutorial</a></li>
 <li><a href="https://github.com/xoolive/pyseminar">Python seminar</a></li>
 <li><a href="https://colab.research.google.com/">Google Colab</a>: Jupyter notebooks on the cloud</li>
