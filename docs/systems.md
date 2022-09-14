@@ -188,7 +188,7 @@ git checkout 1e6739
 
 41 | What is the git remote "origin" url of the seaborn repository?
 
-42 | What is the full version of the commit ID of the version 0.12 of seaborn?
+42 | What is the full version of the last commit ID in the 0.12 version branch of seaborn?
 
 43 | How many commits are in the `master` branch of seaborn?
 
