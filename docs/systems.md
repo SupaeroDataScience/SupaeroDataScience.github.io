@@ -204,7 +204,7 @@ git checkout 1e6739
 
 49 | How many files are in the seaborn repository? Not counting hidden files like the `.git` repository
 
-50 | How many files directly use numpy in the seaborn repository?
+50 | How many files directly contain the word "numpy" in the seaborn repository? Do not count hidden files like `.git/`
 
 ### Resources
 
