@@ -233,7 +233,7 @@ Please note that *ISAE-EDU and ethernet block ssh to most servers*, including th
 
 53 | What is the letter of the `ssh` flag that denotes the private key to use for authentification?
 
-54 | What is the letter of the `ssh` flag to run a command on the remote host?
+54 | What is the letter of the `ssh` flag to specify the user to log in as on the remote machine?
 
 55 | What is the default port for `ssh`?
 
