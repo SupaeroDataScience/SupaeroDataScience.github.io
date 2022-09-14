@@ -157,6 +157,12 @@ git clone https://github.com/SupaeroDataScience/machine-learning.git
 git clone https://github.com/mwaskom/seaborn.git
 ```
 
+The commit for the `seaborn` repository is `1e6739` :
+
+```bash
+git checkout 1e6739
+```
+
 ### Questions
 
 
