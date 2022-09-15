@@ -625,6 +625,8 @@ There is currently a numbering error in questions 180 - 182 in `pandas_titanic.i
 
 The question 196 should read "march, 2009" instead of april.
 
+The question 198 should read "FR04037" instead of "BETR801".
+
 ### Python Submission
 
 Note that you can use the `requests` library to submit responses:
