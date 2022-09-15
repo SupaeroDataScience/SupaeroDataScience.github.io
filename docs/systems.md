@@ -603,7 +603,17 @@ json.loads('{"x": 1, "x": 2, "x": 3}')
 
 160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the `requests` library?
 
-Questions 161 - 200 are in the numpy and pandas notebooks in the `ctf2022` repository. There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
+Questions 161 - 200 are in the numpy and pandas notebooks in the `ctf2022` repository.
+
+#### Errata
+
+The code for the question 167 should read:
+
+```python
+a = np.ones((3,3)) * np.random.rand(3,3)
+```
+
+There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
 
 ### Python Submission
 
