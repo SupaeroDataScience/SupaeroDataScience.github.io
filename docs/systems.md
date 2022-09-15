@@ -603,7 +603,7 @@ json.loads('{"x": 1, "x": 2, "x": 3}')
 
 160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the `requests` library?
 
-Questions 161 - 200 are in the numpy and pandas notebooks in the `ctf2022` repository.
+Questions 161 - 200 are in the numpy and pandas notebooks in the `ctf2022` repository. There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
 
 ### Python Submission
 
@@ -621,6 +621,7 @@ r = requests.post("http://13.39.51.160/", data=data)
 
 + [Python 3.10 Documentation](https://docs.python.org/3/index.html)
 + [Pip documentation](https://pypi.org/project/pip/)
++ [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 + [Stanford Python and Numpy tutorial](https://cs231n.github.io/python-numpy-tutorial/)
 + [Python seminar](https://github.com/xoolive/pyseminar)
 + [Google Colab](https://colab.research.google.com/): Jupyter notebooks on the cloud
