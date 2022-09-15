@@ -623,6 +623,8 @@ b = np.random.rand(4,4)
 
 There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
 
+The question 196 should read "march, 2009" instead of april.
+
 ### Python Submission
 
 Note that you can use the `requests` library to submit responses:
