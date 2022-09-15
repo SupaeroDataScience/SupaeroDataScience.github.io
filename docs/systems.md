@@ -613,6 +613,14 @@ The code for the question 167 should read:
 a = np.ones((3,3)) * np.random.rand(3,3)
 ```
 
+The code for the question 169 should read:
+
+```python
+a = np.ones((4,4))
+b = np.random.rand(4,4)
+(a + (a * b) == np.add(a, np.multiply(a, b))).all()
+```
+
 There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
 
 ### Python Submission
