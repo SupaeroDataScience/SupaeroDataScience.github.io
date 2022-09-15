@@ -623,6 +623,8 @@ b = np.random.rand(4,4)
 
 There is currently a numbering error in questions 180 - 182 in `pandas_titanic.ipynb`: they should be 181-183.
 
+The question 191 should read "younger than 26" (meaning 25 is included).
+
 The question 196 should read "march, 2009" instead of april.
 
 The question 198 should read "FR04037" instead of "BETR801".
