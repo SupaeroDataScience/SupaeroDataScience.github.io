@@ -606,6 +606,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#python-submission" class="md-nav__link">
+    Python Submission
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#resources_4" class="md-nav__link">
     Resources
   </a>
@@ -933,7 +940,7 @@ gym
         <span class="k">case</span> <span class="mi">418</span><span class="p">:</span>
             <span class="k">return</span> <span class="s2">&quot;I&#39;m a teapot&quot;</span>
         <span class="k">case</span> <span class="k">_</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&quot;Something&#39;s wrong with the internet&quot;</span>
+            <span class="k">return</span> <span class="s2">&quot;Something is wrong with the internet&quot;</span>
 </code></pre></div>
 <p>138 | What does the following code print?</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="o">/</span><span class="p">):</span>
@@ -995,7 +1002,15 @@ gym
 </code></pre></div>
 <p>159 | What is the function name in the <code>requests</code> package to make an HTTP POST request?</p>
 <p>160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the <code>requests</code> library?</p>
-<p>Questions on Numpy and Pandas will be released on Thursday morning. If you have reached question 120 before then, congratulations! Take a look at the resources to prepare for Thursday or help out any friends who haven't reached 120 yet.</p>
+<p>Questions 161 - 200 are in the numpy and pandas notebooks in the <code>ctf2022</code> repository.</p>
+<h3 id="python-submission">Python Submission<a class="headerlink" href="#python-submission" title="Permanent link">🔗</a></h3>
+<p>Note that you can use the <code>requests</code> library to submit responses:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;answer&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;user&quot;</span><span class="p">:</span> <span class="s2">&quot;d.wilson&quot;</span><span class="p">}</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;http://13.39.51.160/&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+</code></pre></div>
 <h3 id="resources_4">Resources<a class="headerlink" href="#resources_4" title="Permanent link">🔗</a></h3>
 <ul>
 <li><a href="https://docs.python.org/3/index.html">Python 3.10 Documentation</a></li>
