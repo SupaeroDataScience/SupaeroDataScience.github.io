@@ -502,7 +502,7 @@ def http_error(status):
         case 418:
             return "I'm a teapot"
         case _:
-            return "Something's wrong with the internet"
+            return "Something is wrong with the internet"
 ```
 
 138 | What does the following code print?
@@ -603,7 +603,19 @@ json.loads('{"x": 1, "x": 2, "x": 3}')
 
 160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the `requests` library?
 
-Questions on Numpy and Pandas will be released on Thursday morning. If you have reached question 120 before then, congratulations! Take a look at the resources to prepare for Thursday or help out any friends who haven't reached 120 yet.
+Questions 161 - 200 are in the numpy and pandas notebooks in the `ctf2022` repository.
+
+### Python Submission
+
+Note that you can use the `requests` library to submit responses:
+
+```python
+import requests
+data = {"number": "1",
+        "answer": "",
+        "user": "d.wilson"}
+r = requests.post("http://13.39.51.160/", data=data)
+```
 
 ### Resources
 
