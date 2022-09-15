@@ -629,6 +629,8 @@ The question 196 should read "march, 2009" instead of april.
 
 The question 198 should read "FR04037" instead of "BETR801".
 
+The question 200 should read "What is the average in 2010 when sampled yearly"?
+
 ### Python Submission
 
 Note that you can use the `requests` library to submit responses:
