@@ -603,6 +603,19 @@
     Questions
   </a>
   
+    <nav class="md-nav" aria-label="Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#errata" class="md-nav__link">
+    Errata
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1002,7 +1015,12 @@ gym
 </code></pre></div>
 <p>159 | What is the function name in the <code>requests</code> package to make an HTTP POST request?</p>
 <p>160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the <code>requests</code> library?</p>
-<p>Questions 161 - 200 are in the numpy and pandas notebooks in the <code>ctf2022</code> repository. There is currently a numbering error in questions 180 - 182 in <code>pandas_titanic.ipynb</code>: they should be 181-183.</p>
+<p>Questions 161 - 200 are in the numpy and pandas notebooks in the <code>ctf2022</code> repository.</p>
+<h4 id="errata">Errata<a class="headerlink" href="#errata" title="Permanent link">🔗</a></h4>
+<p>The code for the question 167 should read:</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+</code></pre></div>
+<p>There is currently a numbering error in questions 180 - 182 in <code>pandas_titanic.ipynb</code>: they should be 181-183.</p>
 <h3 id="python-submission">Python Submission<a class="headerlink" href="#python-submission" title="Permanent link">🔗</a></h3>
 <p>Note that you can use the <code>requests</code> library to submit responses:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
