@@ -716,13 +716,42 @@
 <p>Answers can be submitted through an API with the CTF server. Questions  will be made available over the course of 5 sessions. Responding correctly to a question gives 1 point, and an additional 0.5 points are awarded for being the first to submit the correct answer to a question. That half point is the flag - be the first to capture it!</p>
 <p>If you're speeding through the questions, consider helping others learn the material. Depending on your background, you may have varied experience with these tools. Get to know the other participants by helping them capture a flag too.</p>
 <h3 id="2023-schedule">2023 Schedule<a class="headerlink" href="#2023-schedule" title="Permanent link">🔗</a></h3>
-<p>Date | Topic | Questions
-| --- | --- | --- |
-06/09 | Linux, bash | 1 - 30
-08/09 | Git, ssh | 31 - 90
-11/09 | Python | 90 - 160
-12/09 | Numpy, pandas | 161 - 200
-13/09 | Wrap up | all questions</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Questions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>06/09</td>
+<td>Linux, bash</td>
+<td>1 - 30</td>
+</tr>
+<tr>
+<td>08/09</td>
+<td>Git, ssh</td>
+<td>31 - 90</td>
+</tr>
+<tr>
+<td>11/09</td>
+<td>Python</td>
+<td>91 - 160</td>
+</tr>
+<tr>
+<td>12/09</td>
+<td>Numpy, pandas</td>
+<td>161 - 200</td>
+</tr>
+<tr>
+<td>13/09</td>
+<td>Wrap up</td>
+<td>all questions</td>
+</tr>
+</tbody>
+</table>
 <h2 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">🔗</a></h2>
 <p>Linux is an open-source operating system based on Unix. It is a standard choice for development and is the most dominant operating system for web servers, cloud computing, and high performance computing at 80% of global public servers. There are many different <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">distributions</a> but they share a common set of tools, notably <a href="https://en.wikipedia.org/wiki/GNU">GNU</a> software. A very common Linux distribution is Android, at <a href="https://en.wikipedia.org/wiki/Usage_share_of_operating_systems">73% of all mobile devices</a>, so you might be a Linux user already without realizing it!</p>
 <p>You most likely don't use Linux as the operating system of your personal computer, however. If you <strong>are</strong> using one the 2.5 % of personal computers with Linux, you can skip straight to the Submission section</p>
@@ -736,6 +765,7 @@
 <li><a href="https://www.howtogeek.com/426749/how-to-access-your-linux-wsl-files-in-windows-10/">How to Access WSL Linux Files from Windows</a></li>
 </ul>
 <h3 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">🔗</a></h3>
+<p>All questions will be posted to the <a href="https://github.com/SupaeroDataScience/ctf2023">CTF github repository</a>. In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.</p>
 <p>The CTF server's IP address is <a href="http://34.159.187.208/"><code>34.159.187.208</code></a>. You can see a leaderboard there and it is the address for submitting answers. The first way we'll look at submitting answers is with <code>curl</code> in Linux.</p>
 <p>Once you have a Unix-type environment, either native Linux or macOS, or through the WSL, you're ready to submit to the CTF. You will use the <code>curl</code> command; you can verify that you have <code>curl</code> by running <code>which curl</code> in the command line. <code>curl</code> is a tool for transferring data from or to a server. How do you know that? By checking the documentation of <code>curl</code> using <code>man curl</code>. Try it out!</p>
 <p>To respond to a question, send a POST request with the data of the question <code>number</code> and <code>answer</code>, and your username as <code>user</code> (your username should be your ISAE login, but you can also check on the leaderboard). For example, the first question asks where the <code>curl</code> executable is (hint: use <code>which</code>). Then use <code>curl</code>:</p>
@@ -744,12 +774,8 @@
 <span class="w">    </span>-d<span class="w"> </span><span class="s1">&#39;answer=your answer here&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">    </span>-d<span class="w"> </span><span class="s1">&#39;user=your username here&#39;</span>
 </code></pre></div>
-<p>Some of the questions will require access to some files, called <code>file_a.txt</code>, <code>file_b.txt</code>, and <code>file_c.txt</code>. Here are three different ways to download using <code>curl</code> and <code>wget</code>:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>http://34.159.187.208/files/file_a.txt<span class="w"> </span>-o<span class="w"> </span>file_a.txt
-curl<span class="w"> </span>http://34.159.187.208/files/file_b.txt<span class="w"> </span>&gt;<span class="w"> </span>file_b.txt
-wget<span class="w"> </span>http://34.159.187.208/files/file_c.txt
-</code></pre></div>
-<p>Be sure to download all three files, using whichever method. You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using <code>man</code>.</p>
+<p>Some of the questions will require access to some files, called <code>file_a.txt</code>, <code>file_b.txt</code>, and <code>file_c.txt</code>. Those are available on the CTF git repository. </p>
+<p>You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using <code>man</code>.</p>
 <p>You can see which questions you have answered by sending a GET request:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span><span class="s1">&#39;http://34.159.187.208/user/d.wilson&#39;</span>
 </code></pre></div>
