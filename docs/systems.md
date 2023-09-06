@@ -10,13 +10,15 @@ If you're speeding through the questions, consider helping others learn the mate
 
 ### 2023 Schedule
 
-Date | Topic | Questions
+
+| Date | Topic | Questions |
 | --- | --- | --- |
-06/09 | Linux, bash | 1 - 30
-08/09 | Git, ssh | 31 - 90
-11/09 | Python | 90 - 160
-12/09 | Numpy, pandas | 161 - 200
-13/09 | Wrap up | all questions
+| 06/09 | Linux, bash | 1 - 30 |
+| 08/09 | Git, ssh | 31 - 90 |
+| 11/09 | Python | 91 - 160 |
+| 12/09 | Numpy, pandas | 161 - 200 |
+| 13/09 | Wrap up | all questions |
+
 
 ## Linux
 
@@ -38,6 +40,8 @@ The WSL is similar to a virtual machine inside of Windows, but it integrates wit
 
 ### Submission
 
+All questions will be posted to the [CTF github repository](https://github.com/SupaeroDataScience/ctf2023). In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.
+
 The CTF server's IP address is [`34.159.187.208`](http://34.159.187.208/). You can see a leaderboard there and it is the address for submitting answers. The first way we'll look at submitting answers is with `curl` in Linux.
 
 Once you have a Unix-type environment, either native Linux or macOS, or through the WSL, you're ready to submit to the CTF. You will use the `curl` command; you can verify that you have `curl` by running `which curl` in the command line. `curl` is a tool for transferring data from or to a server. How do you know that? By checking the documentation of `curl` using `man curl`. Try it out!
@@ -51,15 +55,9 @@ curl -X POST 'http://34.159.187.208/' \
     -d 'user=your username here'
 ```
 
-Some of the questions will require access to some files, called `file_a.txt`, `file_b.txt`, and `file_c.txt`. Here are three different ways to download using `curl` and `wget`:
+Some of the questions will require access to some files, called `file_a.txt`, `file_b.txt`, and `file_c.txt`. Those are available on the CTF git repository. 
 
-```bash
-curl http://34.159.187.208/files/file_a.txt -o file_a.txt
-curl http://34.159.187.208/files/file_b.txt > file_b.txt
-wget http://34.159.187.208/files/file_c.txt
-```
-
-Be sure to download all three files, using whichever method. You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using `man`.
+You are ready to start answering questions! If you don't know an answer, check the resources below and read documentation using `man`.
 
 You can see which questions you have answered by sending a GET request:
 
