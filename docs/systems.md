@@ -232,5 +232,3 @@ Some additional packages for improving Jupyter are `nbopen nbdime RISE`. Be sure
 + [Python seminar](https://github.com/xoolive/pyseminar)
 + [Google Colab](https://colab.research.google.com/): Jupyter notebooks on the cloud
 + [Binder](https://mybinder.org/): Also Jupyter notebooks on the cloud, not hosted by Google
-
-## Questions
