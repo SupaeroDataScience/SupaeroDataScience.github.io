@@ -24,7 +24,7 @@ nav:
 - Classes:
   - Foundations in Decision Making: 'https://supaerodatascience.github.io/index.html#fsd301'
   - Algorithms in Machine Learning: 'https://supaerodatascience.github.io/index.html#fsd311'
-  - Tools of Big Data: 'https://supaerodatascience.github.io/OBD/'
+  - Data Engineering: 'https://supaerodatascience.github.io/DE/'
   - Digital Economy and Data Usage: enud.md
   - Hackathon: hackathon.md
   - Seminars: seminars.md

@@ -14,7 +14,7 @@ The program is composed of 240h of classes, shared between the following modules
 - [Algorithms in Machine Learning](#fsd311) (FSD311, AML)<br>
   80 hours on supervised, unsupervised, deep, and reinforcement learning
 
-- [Tools of Big Data](#fsd312) (FSD312, OBD)<br>
+- [Data Engineering](#fsd312) (FSD312, DE)<br>
   50 hours on data storage, computation, and distribution
 
 - [Digital economy and data usage](#fsd313) (FSD313, ENUD)<br>
@@ -47,8 +47,8 @@ This program is complemented by a 6 months internship in data science.
 - [Deep Learning](https://supaerodatascience.github.io/deep-learning/) 
 - [Reinforcement Learning](https://supaerodatascience.github.io/reinforcement-learning/)
 
-## <a id="fsd312"></a>Tools of Big Data (FSD312, OBD)
-[Class website](https://supaerodatascience.github.io/OBD/)<br/>
+## <a id="fsd312"></a>Data Engineering (FSD312, DE)
+[Class website](https://supaerodatascience.github.io/DE/)<br/>
 
 - Database Management Systems
 - Cloud computing and virtualization
