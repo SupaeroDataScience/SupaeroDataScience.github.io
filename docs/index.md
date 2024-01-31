@@ -62,6 +62,7 @@ This program is complemented by a 6 months internship in data science.
 - Data security and privacy issues
 
 ## <a id="modules"></a>In-depth Modules
+[Presentation](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/indepths.pdf)
 
 Parallel classes shared with the Decision Systems program. The classes offered in SDD cover:
 
