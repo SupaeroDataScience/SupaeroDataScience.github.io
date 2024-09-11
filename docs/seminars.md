@@ -1,13 +1,5 @@
 # FSD319 - Seminars
 
-## Systems
-
-[Class website](https://supaerodatascience.github.io/systems.html)
-
-An overview of linux, python, git, and ssh to be used throughout the year.
-
-## Seminars
-
 We host seminars on a variety of topics in data science, artificial intelligence, and big data. These seminars are open to the campus but are organized as a part of SDD. External partners are encouraged to [contact us](https://supaerodatascience.github.io/contact.html) to coordinate seminars.
 
 ## Competitions
