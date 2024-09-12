@@ -1,0 +1,856 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Data and Decision Sciences Engineering Program">
+      
+      
+      
+        <link rel="canonical" href="https://supaerodatascience.github.io/python.html">
+      
+      
+      
+      
+      <link rel="icon" href="https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>Python - SDD</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#python" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="SDD" class="md-header__button md-logo" aria-label="SDD" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SDD
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/SupaeroDataScience/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SupaeroDataScience
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="SDD" class="md-nav__button md-logo" aria-label="SDD" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/favicon.ico" alt="logo">
+
+    </a>
+    SDD
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/SupaeroDataScience/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SupaeroDataScience
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aml.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Algorithms in Machine Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://supaerodatascience.github.io/DE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ads.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applied Data Science
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="seminars.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="infostudents.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For current students
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="students.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For prospective students
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="partners.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For partners
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    SSH
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systems" class="md-nav__link">
+    Systems
+  </a>
+  
+    <nav class="md-nav" aria-label="Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editeur-de-texte" class="md-nav__link">
+    Éditeur de texte
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fsd319-seminars" class="md-nav__link">
+    FSD319 Seminars
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-paquet-logiciels-sdd" class="md-nav__link">
+    Le paquet logiciels SDD
+  </a>
+  
+    <nav class="md-nav" aria-label="Le paquet logiciels SDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#une-machine-virtuelle" class="md-nav__link">
+    Une machine virtuelle ?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distribution-gnulinux" class="md-nav__link">
+    Distribution GNU/Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-langage-r" class="md-nav__link">
+    Le langage R
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-langage-scala" class="md-nav__link">
+    Le langage Scala
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-couteau-suisse-de-python-3-le-plus-recent-via-anaconda-httpswwwanacondacomdownload" class="md-nav__link">
+    Le couteau suisse de Python 3 (le plus récent) via Anaconda (https://www.anaconda.com/download)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pilotes-gpu" class="md-nav__link">
+    Pilotes GPU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-base-de-donnees-postgresql" class="md-nav__link">
+    La base de données PostgreSQL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quelques-outils-utiles-pour-jupyter-notebooks" class="md-nav__link">
+    Quelques outils utiles pour jupyter notebooks :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h2 id="python">Python<a class="headerlink" href="#python" title="Permanent link">🔗</a></h2>
+<p>Le couteau suisse de Python 3</p>
+<ul>
+<li>
+<p>Pour Windows, une distribution anaconda pour Python 3 (le plus récent)  est recommandé, car il gère automatiquement votre chemin et vos environnements Python</p>
+</li>
+<li>
+<p>https://www.anaconda.com/distribution/#download-section</p>
+</li>
+<li>
+<p>Si vous n'êtes pas sûr de l'environnement python que vous utilisez, veuillez lire ce qui suit avant de continuer :</p>
+</li>
+<li>
+<p>https://realpython.com/python-virtual-environments-a-primer/</p>
+</li>
+</ul>
+<p>La grande (mais non exhaustive) liste des paquets python que nous utiliserons cette année à installer en utilisant soit pip soit conda :</p>
+<p>numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+jupyter
+keras
+torch
+geos
+graphviz
+nltk
+networkx
+statsmodels
+pyspark
+altair
+cython
+cma
+gym
+gym[atari]
+gym[classic_control]
+gym[box2d]
+gym[algorithms]
+roboschool</p>
+<p>Cartopy
+Installez également Cartopy, qui a d'autres dépendances :
+https://scitools.org.uk/cartopy/docs/latest/installing.html#installing</p>
+<p>Quelques outils utiles pour jupyter notebooks :</p>
+<p>Replier les cellules d'un notebook (https://stackoverflow.com/questions/33159518/collapse-cell-in-jupyter-notebook) :</p>
+<p>$ pip install jupyter_contrib_nbextensions
+$ jupyter contrib nbextension install --user</p>
+<p>$ pip install jupyter_nbextensions_configurator
+$ jupyter nbextensions_configurator enable --user</p>
+<p>Ouvrir des notebooks en double-cliquant dessus (https://github.com/takluyver/nbopen) :</p>
+<p>$ pip install nbopen
+$ python -m nbopen.install_xdg</p>
+<p>Les présentations basées sur les notebooks (https://github.com/damianavila/RISE) :</p>
+<p>$ pip install RISE</p>
+<p>Avoir des git diffs et des git merge lisibles sur les notebooks (https://github.com/jupyter/nbdime) :</p>
+<p>$ pip install nbdime
+$ nbdime config-git –enable –global</p>
+<p>Pilotes GPU pour Deep Learning</p>
+<p>Uniquement pour ceux qui ont un GPU dédié sur leur machine personnelle</p>
+<p>Installation de drivers CUDA :
+https://developer.nvidia.com/cuda-downloads</p>
+<p>Installation de drivers OpenCL :
+→Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont là :
+http://www.nvidia.com/Download/index.aspx?lang=en-us
+→Si le PC a une carte graphique AMD, les drivers OpenCL sont là :
+https://www.amd.com/en-us/solutions/professional/hpc/opencl
+→ Si le PC a seulement un processeur Intel, les drivers OpenCL sont là :
+https://software.intel.com/en-us/articles/opencl-drivers
+→ Sur Mac, OpenCL est déjà installé :
+https://support.apple.com/fr-fr/HT202823</p>
+<p>→Version GPU de Tensorflow et Pytorch:</p>
+<p>pip install tensorflow-gpu pytorch-gpu</p>
+<h2 id="ssh">SSH<a class="headerlink" href="#ssh" title="Permanent link">🔗</a></h2>
+<h2 id="systems">Systems<a class="headerlink" href="#systems" title="Permanent link">🔗</a></h2>
+<h3 id="git">Git<a class="headerlink" href="#git" title="Permanent link">🔗</a></h3>
+<p>Auto-formation Git et GitHub : commencez par visionner les vidéos (et pratiquer en même temps) :
+https://www.youtube.com/playlist?list=PLjwdMgw5TTLXuY5i7RW0QqGdW0NZntqiP (jusqu'à la vidéo 11 incluse au strict minimum)
+Et faites les activités guidées de :
+https://lab.github.com/githubtraining/introduction-to-github</p>
+<p>Vous devez créer une clé SSH pour votre compte en suivant les instructions suivantes: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent</p>
+<p>Exercice</p>
+<div class="codehilite"><pre><span></span><code>Créez un compte GitHub si ce n&#39;est pas déjà fait.
+Créez un fork du dépôt https://github.com/SupaeroDataScience/etudiants-sdd-XXXXXX où XXXXXX est l&#39;année scolaire en cours (par exemple 201819)
+Copiez votre clé publique dans un fichier avec le nom prénom-nom-login_github.pub (faites attention que vous copiez la partie publique et non la partie privée)
+Faites un commit en ajoutant ce fichier
+Faites un Pull Request au dépôt de base (https://github.com/SupaeroDataScience/etudiants-sdd-XXXXXX) pour que les modifications que vous avez faites soient intégrées dessus.
+</code></pre></div>
+
+<p>Ressources supplémentaires</p>
+<div class="codehilite"><pre><span></span><code><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">youtube</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">playlist</span><span class="err">?</span><span class="n">list</span><span class="o">=</span><span class="n">PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">learngitbranching</span><span class="o">.</span><span class="n">js</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">git</span><span class="o">-</span><span class="n">scm</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">book</span><span class="o">/</span><span class="n">en</span><span class="o">/</span><span class="n">v2</span>
+<span class="n">La</span><span class="w"> </span><span class="n">cheat</span><span class="o">-</span><span class="n">sheet</span><span class="w"> </span><span class="n">git</span><span class="w"> </span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">training</span><span class="o">-</span><span class="n">kit</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="n">github</span><span class="o">-</span><span class="n">git</span><span class="o">-</span><span class="n">cheat</span><span class="o">-</span><span class="n">sheet</span><span class="o">.</span><span class="n">pdf</span>
+</code></pre></div>
+
+<h3 id="editeur-de-texte">Éditeur de texte<a class="headerlink" href="#editeur-de-texte" title="Permanent link">🔗</a></h3>
+<p>Programmer n'est pas comme écrire des documents Word, il s'agit souvent de travailler avec de nombreux fichiers différents, de manipuler de grandes quantités de texte de manière spécifique et répétée, et de suivre une syntaxe structurée bien au-delà du langage humain. Les éditeurs de texte aident à accomplir toutes ces tâches. Les plus populaires historiquement sont Vim et Emacs. Vous pouvez choisir n'importe quel éditeur de texte, mais il est recommandé de bien apprendre comment il fonctionne.</p>
+<p>Vim</p>
+<p>$ sudo apt install vim
+$ vimtutor</p>
+<p>Pour plus d'informations : https://missing.csail.mit.edu/2020/editors/</p>
+<p>Emacs</p>
+<p>$ sudo apt install emacs</p>
+<p>https://www.emacswiki.org/emacs/LearningEmacs</p>
+<p>Atom
+https://atom.io/</p>
+<p>Visual Studio
+https://code.visualstudio.com/
+Notez que le code VS dispose d'un mode interactif spécifique comme les notebooks Jupyter: https://code.visualstudio.com/docs/python/jupyter-support-py</p>
+<h1 id="fsd319-seminars">FSD319 Seminars<a class="headerlink" href="#fsd319-seminars" title="Permanent link">🔗</a></h1>
+<h1 id="le-paquet-logiciels-sdd">Le paquet logiciels SDD<a class="headerlink" href="#le-paquet-logiciels-sdd" title="Permanent link">🔗</a></h1>
+<p>Votre boîte à outils sur votre ordi perso, tout au long de l'année !</p>
+<h3 id="une-machine-virtuelle">Une machine virtuelle ?<a class="headerlink" href="#une-machine-virtuelle" title="Permanent link">🔗</a></h3>
+<p>Auto-formation virtual-box : <a href="http://lms.isae.fr/course/view.php?id=1111">http://lms.isae.fr/course/view.php?id=1111</a></p>
+<h3 id="distribution-gnulinux">Distribution GNU/Linux<a class="headerlink" href="#distribution-gnulinux" title="Permanent link">🔗</a></h3>
+<p>On vous recommande d'installer une distribution Linux Ubuntu-like (ou Debian-like) pour trouver facilement de l'aide si besoin.</p>
+<h3 id="le-langage-r">Le langage R<a class="headerlink" href="#le-langage-r" title="Permanent link">🔗</a></h3>
+<ul>
+<li>L'interpréteur du langage R
+<div class="highlight"><pre><span></span><code>&gt; sudo apt install r-base
+</code></pre></div></li>
+<li>L'environnement de développement R-studio Desktop
+<a href="https://www.rstudio.com/products/rstudio/download/">https://www.rstudio.com/products/rstudio/download/</a></li>
+</ul>
+<h3 id="le-langage-scala">Le langage Scala<a class="headerlink" href="#le-langage-scala" title="Permanent link">🔗</a></h3>
+<ul>
+<li>L'interpréteur du langage Scala et le Scala Build Tool
+<div class="highlight"><pre><span></span><code>&gt; echo &quot;deb https://dl.bintray.com/sbt/debian /&quot; | sudo tee -a /etc/apt/sources.list.d/sbt.list
+&gt; sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+&gt; sudo apt-get update
+&gt; sudo apt-get install sbt
+</code></pre></div></li>
+</ul>
+<h3 id="le-couteau-suisse-de-python-3-le-plus-recent-via-anaconda-httpswwwanacondacomdownload">Le couteau suisse de Python 3 (le plus récent) via Anaconda (https://www.anaconda.com/download)<a class="headerlink" href="#le-couteau-suisse-de-python-3-le-plus-recent-via-anaconda-httpswwwanacondacomdownload" title="Permanent link">🔗</a></h3>
+<ul>
+<li>Une <a href="https://www.anaconda.com/distribution/#download-section">distribution anaconda pour Python 3 (le plus récent)</a></li>
+<li>En principe par défaut vous avez déjà les paquets de base (numpy, pandas, scipy, matplotlib, scikit-learn) sinon vous pouvez les ajouter avec la commande "conda install nom-du-paquet"</li>
+<li>Quelques paquets conda en plus
+<div class="highlight"><pre><span></span><code>&gt; conda install tensorflow keras pytorch proj4 geos graphviz python-graphviz nltk networkx statsmodels pyspark
+</code></pre></div></li>
+<li>Pour ceux qui ont une carte graphique NVIDIA (à regarder après avoir fait <a href="#GPU">la partie plus bas concernant votre carte graphique</a>)
+<div class="highlight"><pre><span></span><code>&gt; conda install tensorflow-gpu pytorch-gpu
+</code></pre></div></li>
+<li>Et quelques paquets pour lesquels il vaut mieux utiliser pip (si possible le pip de votre distribution conda qui devrait devenir la commande pip par défaut si vous n'avez pas fait une installation exotique)
+<div class="highlight"><pre><span></span><code>&gt; pip install pulp facile cartopy altair ipyleaflet cython cma vispy gym gym[atari] gym[classic_control] gym[box2d] gym[algorithms] roboschool
+</code></pre></div></li>
+</ul>
+<h3 id="pilotes-gpu"><a id="GPU"></a>Pilotes GPU<a class="headerlink" href="#pilotes-gpu" title="Permanent link">🔗</a></h3>
+<p>Installation de drivers CUDA :
+<a href="https://developer.nvidia.com/cuda-downloads">https://developer.nvidia.com/cuda-downloads</a></p>
+<p>Installation de drivers OpenCL :
+- Si le PC a une carte graphique NVIDIA, les drivers OpenCL et CUDA sont <a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">là</a>
+- Si le PC a une carte graphique AMD, les drivers OpenCL sont <a href="https://www.amd.com/en-us/solutions/professional/hpc/opencl">là</a>
+- Si le PC a seulement un processeur Intel, les drivers OpenCL sont <a href="https://software.intel.com/en-us/articles/opencl-drivers">là</a>
+- Sur Mac, <a href="https://support.apple.com/fr-fr/HT202823">OpenCL est déjà installé</a></p>
+<p>Compilateurs possibles :
+- gcc/g++, Clang/xCode, Visual Studio, ...</p>
+<p>Librairies / d’interfaces pour la programmation :
+- Librairie <a href="https://mathema.tician.de/software/pycuda/">pycuda en Python</a>
+<div class="highlight"><pre><span></span><code>&gt; pip install pycuda
+</code></pre></div>
+- Librairie <a href="https://mathema.tician.de/software/pyopencl/">pyopencl en Python</a>
+<div class="highlight"><pre><span></span><code>&gt; pip install pyopencl
+</code></pre></div>
+→ Interface <a href="http://www.boost.org/doc/libs/1_63_0/libs/compute">Boost en C++</a></p>
+<h3 id="la-base-de-donnees-postgresql">La base de données PostgreSQL<a class="headerlink" href="#la-base-de-donnees-postgresql" title="Permanent link">🔗</a></h3>
+<div class="highlight"><pre><span></span><code>&gt; sudo apt install postgresql-11 pgadmin3
+</code></pre></div>
+<p>Il y aura sûrement d'autres choses à installer en cours d'année mais vous avez une base très complète avec ça.</p>
+<p>Notez que vous avez également accès gratuitement (avec votre statut étudiant) au solver de programmation linéaire et programmation par contraintes <a href="https://www.ibm.com/products/ilog-cplex-optimization-studio">IBM ILOG CPLEX</a>. Il n'est pas nécessaire de l'installer mais ça peut être utile pour reproduire les BE joués au SI.</p>
+<p><a href="https://www.tableau.com/academic/students">Tableau software</a> (à installer vers mars)</p>
+<h3 id="quelques-outils-utiles-pour-jupyter-notebooks">Quelques outils utiles pour jupyter notebooks :<a class="headerlink" href="#quelques-outils-utiles-pour-jupyter-notebooks" title="Permanent link">🔗</a></h3>
+<p><a href="https://stackoverflow.com/questions/33159518/collapse-cell-in-jupyter-notebook">Replier les cellules d'un notebook</a> :</p>
+<div class="highlight"><pre><span></span><code>pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+
+pip install jupyter_nbextensions_configurator
+jupyter nbextensions_configurator enable --user
+</code></pre></div>
+<p><a href="https://github.com/takluyver/nbopen">Ouvrir des notebooks en double-cliquant dessus</a> :</p>
+<div class="highlight"><pre><span></span><code>pip install nbopen
+python -m nbopen.install_xdg
+</code></pre></div>
+<p><a href="https://github.com/jupyter/nbdime">Avoir des git diffs et des git merge lisibles sur les notebooks</a> :</p>
+<div class="highlight"><pre><span></span><code>pip install nbdime
+nbdime config-git –enable –global
+</code></pre></div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "navigation.expand"], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>
