@@ -22,11 +22,9 @@ repo_url: https://github.com/SupaeroDataScience/
 nav:
 - Home: index.md
 - Classes:
-  - Foundations in Decision Making: 'https://supaerodatascience.github.io/index.html#fsd301'
-  - Algorithms in Machine Learning: 'https://supaerodatascience.github.io/index.html#fsd311'
+  - Algorithms in Machine Learning: aml.md
   - Data Engineering: 'https://supaerodatascience.github.io/DE/'
-  - Digital Economy and Data Usage: enud.md
-  - Hackathon: hackathon.md
+  - Applied Data Science: ads.md
   - Seminars: seminars.md
 - Resources:
   - For current students: infostudents.md
