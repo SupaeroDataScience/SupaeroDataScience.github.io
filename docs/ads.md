@@ -5,7 +5,7 @@
 
 An overview of the history of data privacy regulation and an in-depth analysis of the GDPR. 
 
-[Slides](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/Donn%C3%A9es%20personnelles%20et%20Vie%20priv%C3%A9e.pdf)
+[Slides](https://github.com/SupaeroDataScience/SupaeroDataScience.github.io/blob/150c5d34c6c8421d6c2a8db97a69d5e648378090/files/Droit%20du%20num%C3%A9rique%20-%20ISAE.pdf)
 
 The evaluation for this module takes the form of a mock trial, where students will simulate real cases in data privacy. The class on the GDPR will help students prepare for case analysis and presentation.
 
