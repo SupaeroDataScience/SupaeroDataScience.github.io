@@ -5,20 +5,22 @@ been the end-of-year Hackathon. Industrial and academic partners present
 real-world, challengening Data Science problems for the SDD students. Students
 work in teams and rush to an innovative solution in a 72 hours intensive sprint. 
 
-**The 2023-2024 hackathon will be held February 26 - 28, 2024.**
+**The [2024-2025 hackathon](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2025.pdf) will be held February 24 - 26, 2025.**
 Interested partners for the SDD hackathon should [contact us](https://supaerodatascience.github.io/contact.html).
+
 
 The Hackathon's topics are issued from partners: either research labs (public or
 private) or engineering teams in companies. All data and topics can be covered
 by confidentiality agreements (although we clearly prefer shareable data).
 
 Past editions:
-
-- 2023 with Airbus Defense and Space, Météo France, Mercator Ocean, and Capgimini<br/>
+- [2024](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2024.pdf) with Météo France, Mercator Ocean, ISAE-Supaero and vorteX-IO<br/>
+4 topics: daily rainfall forecasting, ocean eddy detection, methane detection, and water segmentation.
+- [2023](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2023.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and Capgimini<br/>
 4 topics: satellite maneuver detection, daily rainfall forecasting, ocean eddy detection, and energy consumption forecasting.
-- 2022 with Airbus Defense and Space, Météo France, Mercator Ocean, and the CNES<br/>
+- [2022](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2022.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and the CNES<br/>
 4 topics: shoreline forecasting, ocean eddy detection, daily rainfall forecasting, and orbit propagation modelling.
-- 2021 with Airbus Defense and Space, CapGemini, Dassault Aviation, and ISAE-Supaero<br/>
+- [2021](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2021.pdf) with Airbus Defense and Space, CapGemini, Dassault Aviation, and ISAE-Supaero<br/>
 5 topics: [semi-supervised space imaging](https://github.com/fchouteau/isae-ssl-hackathon-2020), [sailing regatta prediction](https://www.kaggle.com/c/supaero-sailing-regatta/), [sports analytics](https://www.kaggle.com/c/march-madness-analytics-2020/), image inpainting, and airplane temperature modelling.
 - 2020 with IRT Saint Exupéry, Air France, Airbus, CapGemini, and Dassault Aviation<br>
 Multiple topics including predictive maintenance and [space imaging](https://github.com/hackathon-isae-2019/Hackathon2019/blob/master/Presentation/Hackathon2019.pdf)

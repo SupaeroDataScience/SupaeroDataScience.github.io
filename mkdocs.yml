@@ -30,6 +30,7 @@ nav:
   - For current students: infostudents.md
   - For prospective students: students.md
   - For partners: partners.md
+  - Contact: contact.md
 
 markdown_extensions:
 - markdown.extensions.codehilite:
