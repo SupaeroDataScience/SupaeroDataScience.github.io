@@ -14,19 +14,20 @@ private) or engineering teams in companies. All data and topics can be covered
 by confidentiality agreements (although we clearly prefer shareable data).
 
 Past editions:
-- [2024](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2024.pdf) with Météo France, Mercator Ocean, ISAE-Supaero and vorteX-IO<br/>
-4 topics: daily rainfall forecasting, ocean eddy detection, methane detection, and water segmentation.
-- [2023](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2023.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and Capgimini<br/>
-4 topics: satellite maneuver detection, daily rainfall forecasting, ocean eddy detection, and energy consumption forecasting.
-- [2022](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2022.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and the CNES<br/>
-4 topics: shoreline forecasting, ocean eddy detection, daily rainfall forecasting, and orbit propagation modelling.
-- [2021](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2021.pdf) with Airbus Defense and Space, CapGemini, Dassault Aviation, and ISAE-Supaero<br/>
-5 topics: [semi-supervised space imaging](https://github.com/fchouteau/isae-ssl-hackathon-2020), [sailing regatta prediction](https://www.kaggle.com/c/supaero-sailing-regatta/), [sports analytics](https://www.kaggle.com/c/march-madness-analytics-2020/), image inpainting, and airplane temperature modelling.
-- 2020 with IRT Saint Exupéry, Air France, Airbus, CapGemini, and Dassault Aviation<br>
-Multiple topics including predictive maintenance and [space imaging](https://github.com/hackathon-isae-2019/Hackathon2019/blob/master/Presentation/Hackathon2019.pdf)
-- 2019 with IRT Saint Exupéry and Air France<br>
-Two topics: land cover classification and predictive maintenance<br>
-- 2018 with IRT Saint Exupéry<br>
-Single topic: land cover classification<br>
-- 2017 with IRT Saint Exupéry<br>
-Two topics: cloud segmentation and oil detection in satellite images<br>
+
+- [2024](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2024.pdf) with Météo France, Mercator Ocean, ISAE-Supaero and vorteX-IO
+  - 4 topics: daily rainfall forecasting, ocean eddy detection, methane detection, and water segmentation.
+- [2023](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2023.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and Capgimini
+  - 4 topics: satellite maneuver detection, daily rainfall forecasting, ocean eddy detection, and energy consumption forecasting.
+- [2022](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2022.pdf) with Airbus Defense and Space, Météo France, Mercator Ocean, and the CNES
+  - 4 topics: shoreline forecasting, ocean eddy detection, daily rainfall forecasting, and orbit propagation modelling.
+- [2021](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2021.pdf) with Airbus Defense and Space, CapGemini, Dassault Aviation, and ISAE-Supaero
+  - 5 topics: [semi-supervised space imaging](https://github.com/fchouteau/isae-ssl-hackathon-2020), [sailing regatta prediction](https://www.kaggle.com/c/supaero-sailing-regatta/), [sports analytics](https://www.kaggle.com/c/march-madness-analytics-2020/), image inpainting, and airplane temperature modelling.
+- 2020 with IRT Saint Exupéry, Air France, Airbus, CapGemini, and Dassault Aviation
+  - Multiple topics including predictive maintenance and [space imaging](https://github.com/hackathon-isae-2019/Hackathon2019/blob/master/Presentation/Hackathon2019.pdf)
+- 2019 with IRT Saint Exupéry and Air France
+  - Two topics: land cover classification and predictive maintenance
+- 2018 with IRT Saint Exupéry
+  - Single topic: land cover classification
+- 2017 with IRT Saint Exupéry
+  - Two topics: cloud segmentation and oil detection in satellite images
