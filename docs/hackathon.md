@@ -5,7 +5,7 @@ been the end-of-year Hackathon. Industrial and academic partners present
 real-world, challengening Data Science problems for the SDD students. Students
 work in teams and rush to an innovative solution in a 72 hours intensive sprint. 
 
-**The [2024-2025 hackathon](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2025.pdf) will be held February 24 - 26, 2025.**
+**The 2026-2027 hackathon will be held March 1 - 3, 2027.**
 Interested partners for the SDD hackathon should [contact us](https://supaerodatascience.github.io/contact.html).
 
 
@@ -15,6 +15,8 @@ by confidentiality agreements (although we clearly prefer shareable data).
 
 Past editions:
 
+[2025](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2025.pdf) — see the subject PDF for partners and topics.
+<br/>
 [2024](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2024.pdf) with Météo France, Mercator Ocean, ISAE-Supaero and vorteX-IO
   - 4 topics: daily rainfall forecasting, ocean eddy detection, methane detection, and water segmentation.
 <br/>
