@@ -4,25 +4,33 @@ The **Data and Decision Sciences** program is a Master-level specialization in D
 
 ## Syllabus
 
-The program is composed of 240h of classes, shared between the following modules:
+The program is composed of the following modules:
 
-- [Algorithms in Machine Learning](#fsd311) (FSD311, AML)<br>
-  110 hours on supervised, unsupervised, deep, and reinforcement learning
+- [Fundamentals of Decision Making](#fsd310) (FSD310)<br>
+  47 hours on data engineering fundamentals, statistics, and optimisation
+
+- [Machine Learning](#fsd311) (FSD311)<br>
+  77 hours on supervised, unsupervised, deep, and reinforcement learning
 
 - [Data Engineering](#fsd312) (FSD312, DE)<br>
-  70 hours on data storage, computation, and distribution
+  60 hours on data storage, computation, and distribution
 
 - [Applied Data Science](#fsd313) (FSD313, ADS)<br>
-  60 hours on data privacy and ethics, the digital economy, and applications of data science
+  55 hours on data privacy and ethics, the digital economy, and applications of data science
 
 - [Seminars](#fsd319) (FSD319)<br>
   Seminars from professional experts, training sessions, and challenges
 
 This program is complemented by a 6 months internship in data science.
 
-## <a id="fsd311"></a>Algorithms in Machine Learning (FSD311, AML)
+## <a id="fsd310"></a>Fundamentals of Decision Making (FSD310)
 
-- [Statistical Foundations of Machine Learning](https://supaerodatascience.github.io/stat-ml/) 
+- [Data Engineering Fundamentals](https://supaerodatascience.github.io/DE/ctf.html) (Capture the Flag: Linux, Git, SSH, Python and NumPy)
+- [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) 
+- Optimisation for Decision Making (combinatorial, stochastic, and continuous optimisation, with automatic differentiation)
+
+## <a id="fsd311"></a>Machine Learning (FSD311)
+
 - [Unsupervised and Supervised Learning Algorithms](https://supaerodatascience.github.io/machine-learning/) 
 - [Deep Learning](https://supaerodatascience.github.io/deep-learning/) 
 - [Reinforcement Learning](https://supaerodatascience.github.io/reinforcement-learning/)

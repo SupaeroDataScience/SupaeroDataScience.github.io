@@ -22,7 +22,8 @@ repo_url: https://github.com/SupaeroDataScience/
 nav:
 - Home: index.md
 - Classes:
-  - Algorithms in Machine Learning: aml.md
+  - Fundamentals of Decision Making: fundamentals.md
+  - Machine Learning: aml.md
   - Data Engineering: 'https://supaerodatascience.github.io/DE/'
   - Applied Data Science: ads.md
   - Seminars: seminars.md
