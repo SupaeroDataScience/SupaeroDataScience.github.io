@@ -14,19 +14,30 @@ theme:
   favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/favicon.ico'
   features:
     - navigation.sections
-    - navigation.expand
 
 repo_name: SupaeroDataScience
 repo_url: https://github.com/SupaeroDataScience/
 
 nav:
 - Home: index.md
+
 - Classes:
-  - Fundamentals of Decision Making: fundamentals.md
+  - Fundamentals of Decision Making:
+    - Overview: 310/index.md
+    - Data Engineering Fundamentals: 310/ctf.md
+    - Statistical Models: https://supaerodatascience.github.io/stat-ml/
+    - Optimization: 310/opti.md
+
   - Machine Learning: aml.md
+
   - Data Engineering: 'https://supaerodatascience.github.io/DE/'
-  - Applied Data Science: ads.md
+
+  - Applied Data Science:
+      - Overview: 313/index.md
+      - Hackathon: 313/hackathon.md
+
   - Seminars: seminars.md
+
 - Resources:
   - For current students: infostudents.md
   - For prospective students: students.md
