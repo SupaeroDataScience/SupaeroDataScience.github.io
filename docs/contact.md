@@ -1,9 +1,7 @@
 # Contact
 
-[Emmanuel Rachelson](https://personnel.isae-supaero.fr/emmanuel-rachelson), Head of SDD,
-[emmanuel.rachelson@isae-supaero.fr](mailto:emmanuel.rachelson@isae-supaero.fr)
-
-[Dennis Wilson](https://personnel.isae-supaero.fr/dennis-wilson), Head of Data Engineering and Applied Data Science modules, [dennis.wilson@isae-supaero.fr](mailto:dennis.wilson@isae-supaero.fr)
+[Axel Carlier](https://acarlier.fr), Head of SDD,
+[axel.carlier@isae-supaero.fr](mailto:axel.carlier@isae-supaero.fr)
 
 [Thomas Oberlin](https://personnel.isae-supaero.fr/thomas-oberlin), Head of SDD Internships, [thomas.oberlin@isae-supaero.fr](mailto:thomas.oberlin@isae-supaero.fr)
 

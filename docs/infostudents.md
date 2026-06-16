@@ -6,7 +6,7 @@ Most information and all course materials can be found on the course websites. T
 
 - [Moodle (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/index.php?categoryid=282)<br>
 - [Internship information (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/view.php?id=2999)
-- The [alumni Linkedin group](https://perso.math.univ-toulouse.fr/m2r/)
+- The [alumni Linkedin group](https://www.linkedin.com/groups/12006478)
 - The [Operations Research MS](http://m2rit-ro.recherche.enac.fr/)<br>
 - The [Applied Math MS](https://departement-math.univ-tlse3.fr/m2-research-innovation)<br>
 - [ANITI](https://aniti.univ-toulouse.fr/)
