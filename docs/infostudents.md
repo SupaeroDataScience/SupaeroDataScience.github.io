@@ -8,7 +8,7 @@ Most information and all course materials can be found on the course websites. T
 - [Internship information (requires ISAE-SUPAERO authentication)](https://lms.isae.fr/course/view.php?id=2999)
 - The [alumni Linkedin group](https://perso.math.univ-toulouse.fr/m2r/)
 - The [Operations Research MS](http://m2rit-ro.recherche.enac.fr/)<br>
-- The [Applied Math MS](https://perso.math.univ-toulouse.fr/m2r/)<br>
+- The [Applied Math MS](https://departement-math.univ-tlse3.fr/m2-research-innovation)<br>
 - [ANITI](https://aniti.univ-toulouse.fr/)
 
 ## External resources
@@ -27,16 +27,16 @@ For following news and job offers in AI
 CNRS research groups
 
 - [MADICS](https://www.madics.fr/)
-- [ISIS](http://www.gdr-isis.fr/)
-- [RO](http://gdrro.lip6.fr/)
-- [IA](https://www.gdria.fr/)
+- [IASIS](https://gdr-iasis.cnrs.fr/)
+- [ROD](https://gdrrod.grenoble-inp.fr/)
+- [RADIA](https://gdr-radia.cnrs.fr)
 
 French organizations
 
-- [AFIA](https://www.sfds.asso.fr/)
+- [AFIA](https://afia.asso.fr/)
 - [SFdS](https://www.sfds.asso.fr/)
-- [ROADEF](https://www.societe-informatique-de-france.fr/)
-- [SSFAM](https://www.societe-informatique-de-france.fr/)
+- [ROADEF](https://roadef.org/)
+- [SSFAM](http://ssfam.org/)
 - [SIF](https://www.societe-informatique-de-france.fr/)
 - [SMAI](http://smai.emath.fr/)
 
