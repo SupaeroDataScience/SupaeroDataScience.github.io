@@ -27,7 +27,7 @@ This program is complemented by a 6 months internship in data science.
 
 - [Data Engineering Fundamentals](310/ctf.md) (Capture the Flag: Linux, Git, SSH, Python and NumPy)
 - [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) 
-- Optimisation for Decision Making (combinatorial, stochastic, and continuous optimisation, with automatic differentiation)
+- [Optimisation for Decision Making](310/opti.md) (combinatorial, stochastic, and continuous optimisation, with automatic differentiation)
 
 ## <a id="fsd311"></a>Machine Learning (FSD311)
 
@@ -49,7 +49,7 @@ This program is complemented by a 6 months internship in data science.
 - Data security and privacy
 - Ethics and AI
 - Business models in the digital economy
-- A [hackathon](https://supaerodatascience.github.io/hackathon.html) on data science problems
+- A [hackathon](313/hackathon.md) on data science problems
 - In-depth modules on computer vision, business intelligence, and reinforcement learning
 
 ## <a id="fsd319"></a>Seminars (FSD319)

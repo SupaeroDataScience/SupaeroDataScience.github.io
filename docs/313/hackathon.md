@@ -15,7 +15,11 @@ by confidentiality agreements (although we clearly prefer shareable data).
 
 Past editions:
 
-[2025](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2025.pdf) — see the subject PDF for partners and topics.
+[2026](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2026.pdf) with SIA Partners, IRT Saint-Exupery and CNRS
+  - 3 topics: video popularity prediction, arm robot control, and bee identification.
+<br/>
+[2025](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2025.pdf) — wil Mercator Ocean, IBM and SIA PArtners
+  - 3 topics: ocean eddy identification, equipment effectiveness prediction, and intelligent text extraction.
 <br/>
 [2024](https://raw.githubusercontent.com/SupaeroDataScience/SupaeroDataScience.github.io/master/files/hackathon/2024.pdf) with Météo France, Mercator Ocean, ISAE-Supaero and vorteX-IO
   - 4 topics: daily rainfall forecasting, ocean eddy detection, methane detection, and water segmentation.
