@@ -28,7 +28,11 @@ nav:
     - Statistical Models: https://supaerodatascience.github.io/stat-ml/
     - Optimization: 310/opti.md
 
-  - Machine Learning: aml.md
+  - Machine Learning: 
+    - Overview: aml.md
+    - Machine Learning: https://supaerodatascience.github.io/machine-learning/
+    - Deep Larning: https://supaerodatascience.github.io/deep-learning/
+    - Reinforcement learning: https://supaerodatascience.github.io/reinforcement-learning/
 
   - Data Engineering: 'https://supaerodatascience.github.io/DE/'
 

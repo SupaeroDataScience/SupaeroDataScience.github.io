@@ -6,7 +6,7 @@ real-world, challengening Data Science problems for the SDD students. Students
 work in teams and rush to an innovative solution in a 72 hours intensive sprint. 
 
 **The 2026-2027 hackathon will be held March 1 - 3, 2027.**
-Interested partners for the SDD hackathon should [contact us](https://supaerodatascience.github.io/contact.html).
+Interested partners for the SDD hackathon should [contact us](../contact.md).
 
 
 The Hackathon's topics are issued from partners: either research labs (public or
