@@ -38,15 +38,15 @@ This program is complemented by a 6 months internship in data science.
 ## <a id="fsd312"></a>Data Engineering (FSD312)
 [Class website](https://supaerodatascience.github.io/DE/)<br/>
 
-- Database Management Systems
-- Cloud computing and virtualization
 - GPGPU computing
+- Database Management Systems
+- Data security and privacy
+- Cloud computing and virtualization
 - Distributed computing with Kubernetes and Dask
 
 ## <a id="fsd313"></a>Applied Data Science (FSD313)
 [Class website](313/index.md)
 
-- Data security and privacy
 - Ethics and AI
 - Business models in the digital economy
 - A [hackathon](313/hackathon.md) on data science problems

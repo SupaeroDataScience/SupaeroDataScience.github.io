@@ -21,7 +21,7 @@ repo_url: https://github.com/SupaeroDataScience/
 nav:
 - Home: index.md
 
-- Classes:
+- Courses:
   - Fundamentals of Decision Making:
     - Overview: 310/index.md
     - Data Engineering Fundamentals: 310/ctf.md

@@ -1,6 +1,4 @@
 # Applied Data Science 
-## FSD313, ADS
-
 
 ## Business Intelligence
 
