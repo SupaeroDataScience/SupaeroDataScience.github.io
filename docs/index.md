@@ -26,14 +26,14 @@ This program is complemented by a 6 months internship in data science.
 ## Courses details
 
 
-### <a id="fsd310"></a>Fundamentals of Decision Making (FSD310)
+### <a id="fsd310"></a> [Fundamentals of Decision Making](310/index.md) (FSD310)
  Course title | Coordinator | Volume | Content |
 | --- | --- | --- | --- |
 [Data Engineering Fundamentals](310/ctf.md)  | Christophe Huet | 10h | Capture the Flag: Linux, Git, SSH, Python and NumPy |
 [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) | Benjamin Bobbia, Laurent Risser | 24h | Descriptive Statistics, Probability, Linear Models, Regression Analysis, Mixed-Effects Models |
 [Optimisation for Decision Making](310/opti.md)  | Zoé Krug | 13h | combinatorial, stochastic, and continuous optimisation, with automatic differentiation |
 
-### <a id="fsd311"></a>Machine Learning (FSD311)
+### <a id="fsd311"></a> [Machine Learning](aml.md) (FSD311)
 
 
  Course title | Coordinator | Volume | Content |
@@ -42,22 +42,27 @@ This program is complemented by a 6 months internship in data science.
 [Deep Learning](https://supaerodatascience.github.io/deep-learning/) | Axel Carlier | 39h | ANN, CNN, RNN, Transformers, LLM, RAG |
 [Reinforcement Learning](https://supaerodatascience.github.io/reinforcement-learning/)  | Valentin Guillet | 15h | MDP, Bellman equation, Value function, Deep Q-Learning, Actor-Critic |
 
-### <a id="fsd312"></a>Data Engineering (FSD312)
-[Class website](https://supaerodatascience.github.io/DE/)<br/>
+### <a id="fsd312"></a> [Data Engineering](https://supaerodatascience.github.io/DE/) (FSD312)
+<br/>
 
-- GPGPU computing
-- Database Management Systems
-- Data security and privacy
-- Cloud computing and virtualization
-- Distributed computing with Kubernetes and Dask
 
-### <a id="fsd313"></a>Applied Data Science (FSD313)
-[Class website](313/index.md)
+ Course title | Coordinator | Volume | Content |
+| --- | --- | --- | --- |
+GPGPU | Laurent Risser | 6h |  |
+[Data Storage](https://supaerodatascience.github.io/DE/0_1_databases.html) | Hugues Larat | 12h | SQL, PostGreSQL, ETL |
+Data Security | Marina Dehez-Clementi | 9h | |
+[Cloud Systems](https://supaerodatascience.github.io/DE/1_1_overview.html) | Axel Carlier | 18h | Cloud computing, GCP, virtualization, containerization, Docker|
+[Cloud Data Engineering](https://supaerodatascience.github.io/DE/2_1_overview.html) | Guillaume Eynard-Bontemps | 21h | MapReduce, Hadoop, Spark, Orchestration, Kubernetes, Dask|
 
-- Ethics and AI
-- Business models in the digital economy
-- A [hackathon](313/hackathon.md) on data science problems
-- In-depth modules on computer vision, business intelligence, and reinforcement learning
+### <a id="fsd313"></a> [Applied Data Science](313/index.md) (FSD313)
+
+ Course title | Coordinator | Volume | Content |
+| --- | --- | --- | --- |
+AI, Law and Ethics | Ronan Pons | 9h | Data privacy, GDPR, European AI Act |
+AI Business models | Lionel Rigaud | 10h | SQL, PostGreSQL, ETL |
+[Hackathon](313/hackathon.md) | Axel Carlier | 21h | |
+In-depths | Axel Carlier | 15h | computer vision, business intelligence, and reinforcement learning|
+
 
 ### <a id="fsd319"></a>Seminars (FSD319)
 [Class website](seminars.md)
