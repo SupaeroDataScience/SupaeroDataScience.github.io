@@ -1,7 +1,12 @@
-**FSD310 - Fundamentals of Decision Making**
 # Data Engineering Fundamentals: Capture the Flag
 
-This class is a five day Capture the Flag event to get to know with the basics of systems usage, specifically linux, git, and ssh. There is also a large section on python, with an emphasis on data science scripting practices using numpy and pandas in jupyter notebooks.
+Schedule | | |
+| --- | --- | --- |
+03/09 AM | Linux, bash | 3h |
+04/09 AM | SSH, Git| 4h |
+04/09 PM | Python, Numpy| 3h |
+
+This class is a two days Capture the Flag event to get to know with the basics of systems usage, specifically linux, git, and ssh. There is also a large section on python, with an emphasis on data science scripting practices using numpy and pandas in jupyter notebooks.
 
 This is a self-guided exercise with resources and questions on this site. You, the participant, must look for the answer to the questions through reading documentation, discussing with others, and trying things. Try to avoid searching for answers online in a search engine; the answers can almost always be found in documentation.
 
@@ -29,7 +34,7 @@ The WSL is similar to a virtual machine inside of Windows, but it integrates wit
 
 ### Submission
 
-All questions will be posted to the [CTF github repository](https://github.com/SupaeroDataScience/ctf2025). In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.
+All questions will be posted to the [CTF github repository](https://github.com/SupaeroDataScience/ctf2026). In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.
 
 The CTF server's IP address is [`34.163.196.38`](http://34.163.196.38/). You can see a leaderboard there and it is the address for submitting answers. The first way we'll look at submitting answers is with `curl` in Linux.
 

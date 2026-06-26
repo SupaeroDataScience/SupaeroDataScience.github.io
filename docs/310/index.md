@@ -1,5 +1,10 @@
 # Fundamentals of Decision Making
-## FSD310
+
+ Course title | Coordinator | Volume | Content |
+| --- | --- | --- | --- |
+[Data Engineering Fundamentals](310/ctf.md)  | Christophe Huet | 10h | Capture the Flag: Linux, Git, SSH, Python and NumPy |
+[Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) | Benjamin Bobbia, Laurent Risser | 24h | Descriptive Statistics, Probability, Linear Models, Regression Analysis, Mixed-Effects Models |
+[Optimisation for Decision Making](310/opti.md)  | Zoé Krug | 13h | Combinatorial, Stochastic, and Continuous Optimisation, Automatic Differentiation |
 
 This class is the introductory foundation of the program, providing the computing, statistical, and
 mathematical tools needed for data-driven decision making. It is divided into three modules:
@@ -7,11 +12,7 @@ mathematical tools needed for data-driven decision making. It is divided into th
 ### [Data Engineering Fundamentals](ctf.md) 
 A Capture the Flag introduction to the data scientist's toolbox: the Linux command line, Git, SSH, and Python   with NumPy.
   
-Schedule | | |
-| --- | --- | --- |
-03/09 PM | Linux, bash | 3h |
-04/09 AM | SSH, Git| 4h |
-04/09 PM | Python, Numpy| 3h |
+
 
 
 ### [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) —
