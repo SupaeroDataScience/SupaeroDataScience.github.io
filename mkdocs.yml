@@ -34,8 +34,11 @@ nav:
     - Deep Larning: https://supaerodatascience.github.io/deep-learning/
     - Reinforcement learning: https://supaerodatascience.github.io/reinforcement-learning/
 
-  - Data Engineering: 'https://supaerodatascience.github.io/DE/'
-
+  - Data Engineering:
+    - Overview: https://supaerodatascience.github.io/DE/index.html
+    - Data Storage: https://supaerodatascience.github.io/DE/0_1_databases.html
+    - Cloud Systems: https://supaerodatascience.github.io/DE/1_1_overview.html
+    - Cloud Data Engineering: https://supaerodatascience.github.io/DE/2_1_overview.html
   - Applied Data Science:
       - Overview: 313/index.md
       - Hackathon: 313/hackathon.md
