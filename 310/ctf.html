@@ -1659,9 +1659,34 @@
   
 
 
-<p><strong>FSD310 - Fundamentals of Decision Making</strong></p>
 <h1 id="data-engineering-fundamentals-capture-the-flag">Data Engineering Fundamentals: Capture the Flag<a class="headerlink" href="#data-engineering-fundamentals-capture-the-flag" title="Permanent link">🔗</a></h1>
-<p>This class is a five day Capture the Flag event to get to know with the basics of systems usage, specifically linux, git, and ssh. There is also a large section on python, with an emphasis on data science scripting practices using numpy and pandas in jupyter notebooks.</p>
+<table>
+<thead>
+<tr>
+<th>Schedule</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>03/09 AM</td>
+<td>Linux, bash</td>
+<td>3h</td>
+</tr>
+<tr>
+<td>04/09 AM</td>
+<td>SSH, Git</td>
+<td>4h</td>
+</tr>
+<tr>
+<td>04/09 PM</td>
+<td>Python, Numpy</td>
+<td>3h</td>
+</tr>
+</tbody>
+</table>
+<p>This class is a two days Capture the Flag event to get to know with the basics of systems usage, specifically linux, git, and ssh. There is also a large section on python, with an emphasis on data science scripting practices using numpy and pandas in jupyter notebooks.</p>
 <p>This is a self-guided exercise with resources and questions on this site. You, the participant, must look for the answer to the questions through reading documentation, discussing with others, and trying things. Try to avoid searching for answers online in a search engine; the answers can almost always be found in documentation.</p>
 <p>Answers can be submitted through an API with the CTF server. Questions will be made available over the course of 5 sessions. Responding correctly to a question gives 1 point, and an additional 0.5 points are awarded for being the first to submit the correct answer to a question. That half point is the flag - be the first to capture it!</p>
 <p>If you're speeding through the questions, consider helping others learn the material. Depending on your background, you may have varied experience with these tools. Get to know the other participants by helping them capture a flag too.</p>
@@ -1678,7 +1703,7 @@
 <li><a href="https://www.howtogeek.com/426749/how-to-access-your-linux-wsl-files-in-windows-10/">How to Access WSL Linux Files from Windows</a></li>
 </ul>
 <h3 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">🔗</a></h3>
-<p>All questions will be posted to the <a href="https://github.com/SupaeroDataScience/ctf2025">CTF github repository</a>. In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.</p>
+<p>All questions will be posted to the <a href="https://github.com/SupaeroDataScience/ctf2026">CTF github repository</a>. In the second class, we will use git to download this repository locally, and it will be used to host the files and data needed to respond to questions.</p>
 <p>The CTF server's IP address is <a href="http://34.163.196.38/"><code>34.163.196.38</code></a>. You can see a leaderboard there and it is the address for submitting answers. The first way we'll look at submitting answers is with <code>curl</code> in Linux.</p>
 <p>Once you have a Unix-type environment, either native Linux or macOS, or through the WSL, you're ready to submit to the CTF. You will use the <code>curl</code> command; you can verify that you have <code>curl</code> by running <code>which curl</code> in the command line. <code>curl</code> is a tool for transferring data from or to a server. How do you know that? By checking the documentation of <code>curl</code> using <code>man curl</code>. Try it out!</p>
 <p>To respond to a question, send a POST request with the data of the question <code>number</code> and <code>answer</code>, and your username as <code>user</code> (your username should be your ISAE login, but you can also check on the leaderboard). For example, the first question asks where the <code>curl</code> executable is (hint: use <code>which</code>). Then use <code>curl</code>:</p>
