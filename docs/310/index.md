@@ -2,9 +2,9 @@
 
  Course title | Coordinator | Volume | Content |
 | --- | --- | --- | --- |
-[Data Engineering Fundamentals](310/ctf.md)  | Christophe Huet | 10h | Capture the Flag: Linux, Git, SSH, Python and NumPy |
+[Data Engineering Fundamentals](ctf.md)  | Christophe Huet | 10h | Capture the Flag: Linux, Git, SSH, Python and NumPy |
 [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) | Benjamin Bobbia, Laurent Risser | 24h | Descriptive Statistics, Probability, Linear Models, Regression Analysis, Mixed-Effects Models |
-[Optimisation for Decision Making](310/opti.md)  | Zoé Krug | 13h | Combinatorial, Stochastic, and Continuous Optimisation, Automatic Differentiation |
+[Optimisation for Decision Making](opti.md)  | Zoé Krug | 13h | Combinatorial, Stochastic, and Continuous Optimisation, Automatic Differentiation |
 
 This class is the introductory foundation of the program, providing the computing, statistical, and
 mathematical tools needed for data-driven decision making. It is divided into three modules:
