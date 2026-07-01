@@ -12,7 +12,11 @@ mathematical tools needed for data-driven decision making. It is divided into th
 ### [Data Engineering Fundamentals](ctf.md) 
 A Capture the Flag introduction to the data scientist's toolbox: the Linux command line, Git, SSH, and Python   with NumPy.
   
-
+Schedule | | |
+| --- | --- | --- |
+03/09 AM | Linux, bash | 3h |
+04/09 AM | SSH, Git| 4h |
+04/09 PM | Python, Numpy| 3h |
 
 
 ### [Statistical Models for Decision Making](https://supaerodatascience.github.io/stat-ml/) —
