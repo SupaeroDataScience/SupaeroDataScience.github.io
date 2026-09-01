@@ -2,6 +2,11 @@
 
 The **Data and Decision Sciences** program is a Master-level specialization in Data Science, modern Artificial Intelligence and Decision Support at [ISAE-SUPAERO](https://www.isae-supaero.fr/en).
 
+
+## Planning
+
+<iframe src="https://calendar.google.com/calendar/embed?src=3202a2eb70a1b4259334f335cf656905412a077c8b429891446080791657dbed%40group.calendar.google.com&ctz=Europe%2FParis&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Syllabus
 
 The program is composed of the following modules:
