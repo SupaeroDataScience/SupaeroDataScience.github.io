@@ -157,7 +157,7 @@ For the ssh section, you will connect to a new server to answer questions about 
 
 **Pre-requisite**: Your public key must be uploaded to the git repository above to get access to the server. You will use the corresponding private key to access the server.
 
-Your user on the server is `ctf` and the IP is: `35.190.209.18`.
+Your user on the server is `ctf` and the IP is: `34.65.72.129`.
 
 Please note that _ISAE-EDU and ethernet block ssh to most servers_, including this one and `github.com`. In order to ssh to the server, you will need to either use the eduroam network or a different network like a mobile hotspot.
 
