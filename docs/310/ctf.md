@@ -109,11 +109,11 @@ If you're using Ubuntu, chances are you already have `git`. If not, simply do:
 
 `sudo apt install git`
 
-These questions concern two repositories: the Machine Learning class in SDD ([https://github.com/SupaeroDataScience/machine-learning](https://github.com/SupaeroDataScience/machine-learning)) and the Seaborn library, a popular graphing library ([https://github.com/mwaskom/seaborn](https://github.com/mwaskom/seaborn)). You will need to download both repositories. First choose a directory to host them in, for example `~/SDD/FSD312`:
+These questions concern two repositories: the Machine Learning class in SDD ([https://github.com/SupaeroDataScience/machine-learning](https://github.com/SupaeroDataScience/machine-learning)) and the Seaborn library, a popular graphing library ([https://github.com/mwaskom/seaborn](https://github.com/mwaskom/seaborn)). You will need to download both repositories. First choose a directory to host them in, for example `~/SDD/FSD310`:
 
 ```bash
-mkdir -p ~/SDD/FSD312
-cd ~/SDD/FSD312
+mkdir -p ~/SDD/FSD310
+cd ~/SDD/FSD310
 ```
 
 and then download them using git clone:
