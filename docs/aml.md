@@ -9,7 +9,7 @@ This class is divided into three modules:
 # [Machine Learning](https://supaerodatascience.github.io/machine-learning/) 
 Schedule | | |
 | --- | --- | --- |
-21/09 PM | Introduction to Machine Learning](index.md/#introduction-to-machine-learning) | Supervised and unsupervised learning, data preprocessing and ML workflow |
+21/09 PM | [Introduction to Machine Learning](index.md/#introduction-to-machine-learning) | Supervised and unsupervised learning, data preprocessing and ML workflow |
 22/09 AM | Geometrical approach | Support Vector Machines, the bias/variance tradeoff and a bit of kernel theory.|
 29/09 AM | Probabilistic approach, pt 1 | Naive Bayes classification and Gaussian Processes  |
 29/09 PM | Probabilistic approach, pt 2 | Surrogate Modeling and Bayesian Optimization |
