@@ -31,3 +31,40 @@ jupyter-notebook &
 Si vous souhaitez utiliser votre ordinateur personnel, il faut récupérer récupérer le [package casADi](https://web.casadi.org/get/).
 
 [BE Optimisation Continue](TP/BE_opti_continue_SD.zip)
+
+
+## Optimisation combinatoire
+
+### Diapositives
+
+[Complexité](cours/slidesComplexityTCS3IN.pdf)
+
+[Programmation Linéaire en nombres entiers](cours/CoursPLNE_2A_2026.pdf)
+
+### BE Programmation linéaire en nombres entiers
+
+Le BE est un notebook accessible de la manière suivante :
+
+- Ouvrir une session linux
+- Télécharger [l'archive](TP/FIFA.zip) et la sauvegarder sur votre compte puis la décompresser.
+- Pour accéder au notebook, taper les commandes suivantes dans un terminal :
+```
+ml anaconda3/2026
+conda activate gurobi-env
+jupyter-notebook&
+```
+- Une fois la page Home ouverte, depuis cette page lancer le notebook **FIFA2.ipynb**
+
+
+## Optimisation stochastique
+
+[Diapositives](cours/Cours_Optimisation_Stochastique_2026_2027.pdf)
+
+### Notebooks
+
+[Algorithme génétique](TP/Genetic_Algorithm.ipynb) 
+
+[Recherche aléatoire](TP/Random_Search.ipynb) 
+
+[Stratégies Évolutionnaires](TP/Evolutionary_Strategies.ipynb) 
+
