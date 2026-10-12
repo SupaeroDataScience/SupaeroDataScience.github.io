@@ -68,3 +68,7 @@ jupyter-notebook&
 
 [Stratégies Évolutionnaires](TP/Evolutionary_Strategies.ipynb) 
 
+## Auto-differentiation
+
+[BE autodiff/SGD/Adam](TP/control_BE.ipynb) 
+
